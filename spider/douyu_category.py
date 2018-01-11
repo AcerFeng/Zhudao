@@ -43,7 +43,7 @@ class Handler(BaseHandler):
                 'mb_url': 'https://m.douyu.com/roomlists/' + item['shortName'],
                 'pc_url': 'https://www.douyu.com/directory/game/' + item['shortName'],
                 'platform_id': 1,
-                
+                'cate_id': item['cate2Id'], 
             }
             results.append(result)
         
@@ -78,6 +78,7 @@ class Handler(BaseHandler):
                         count=%s,
                         mb_url=%s,
                         pc_url=%s,
+                        cate_id=%s,
                         update_time=%s
                         where short_name=%s and platform_id=%s'''
                     cursor.execute(sql, (item['name'], 
@@ -86,14 +87,15 @@ class Handler(BaseHandler):
                                          item['small_icon'], 
                                          item['count'], 
                                          item['mb_url'], 
-                                         item['pc_url'], 
+                                         item['pc_url'],  
+                                         item['cate_id'], 
                                          datetime.now(),
                                          item['short_name'], 
                                          item['platform_id']))
                 else:
                     # 插入操作
-                    sql = '''insert into category(name, pic, icon, small_icon, count, mb_url, pc_url, short_name, platform_id, created_time) 
-                    values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
+                    sql = '''insert into category(name, pic, icon, small_icon, count, mb_url, pc_url, cate_id, short_name, platform_id, created_time) 
+                    values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
                     cursor.execute(sql, (item['name'], 
                                          item['pic'], 
                                          item['icon'], 
@@ -101,9 +103,10 @@ class Handler(BaseHandler):
                                          item['count'],
                                          item['mb_url'], 
                                          item['pc_url'], 
+                                         item['cate_id'], 
                                          item['short_name'], 
                                          item['platform_id'],
-                                        datetime.now(),))
+                                         datetime.now(),))
                 self.connect.commit()
 
             except Exception as e:
