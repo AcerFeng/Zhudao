@@ -1,0 +1,1577 @@
+{
+  "cate1Info": [
+    {
+      "cate1Id": "16",
+      "cate1Name": "热门游戏",
+      "shortName": "game"
+    },
+    {
+      "cate1Id": "1",
+      "cate1Name": "电脑游戏",
+      "shortName": "PCgame"
+    },
+    {
+      "cate1Id": "14",
+      "cate1Name": "王者荣耀",
+      "shortName": "wzry"
+    },
+    {
+      "cate1Id": "15",
+      "cate1Name": "客厅游戏",
+      "shortName": "ktyx"
+    },
+    {
+      "cate1Id": "9",
+      "cate1Name": "手机游戏",
+      "shortName": "sjyx"
+    },
+    {
+      "cate1Id": "2",
+      "cate1Name": "娱乐",
+      "shortName": "yl"
+    },
+    {
+      "cate1Id": "8",
+      "cate1Name": "颜值",
+      "shortName": "yz"
+    },
+    {
+      "cate1Id": "3",
+      "cate1Name": "科技",
+      "shortName": "kj"
+    },
+    {
+      "cate1Id": "11",
+      "cate1Name": "文娱课堂",
+      "shortName": "wykt"
+    },
+    {
+      "cate1Id": "13",
+      "cate1Name": "正能量",
+      "shortName": "znl"
+    }
+  ],
+  "cate2Info": [
+    {
+      "cate1Id": "14",
+      "cate2Id": "181",
+      "cate2Name": "王者荣耀",
+      "shortName": "wzry",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/b14b8890330ca7cb5185b954808485fc.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/f719087663581b7a723c4d39f8721bc1.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/bb9148fde757a69259f82b97aebd73af.png",
+      "count": 829
+    },
+    {
+      "cate1Id": "16",
+      "cate2Id": "270",
+      "cate2Name": "绝地求生",
+      "shortName": "jdqs",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/63a6c37b1bece659805e58ffeac6d00a.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5a92cff5881b5c62814f5289c79b38cf.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e44562661012d49e22a273c12ca176e3.jpg",
+      "count": 2058
+    },
+    {
+      "cate1Id": "16",
+      "cate2Id": "1",
+      "cate2Name": "英雄联盟",
+      "shortName": "LOL",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c543faae97189c529c37b7741906d5a1.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d3e0073bfb714186ab0c818744601963.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/ffdc72ed97b50ad8011de9a779b8d83b.png",
+      "count": 1123
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "178",
+      "cate2Name": "荒岛特训",
+      "shortName": "HDTX",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/a6255811d97bab744c4058d8293bf461.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/60e3c09222f689e73724f6e26489c365.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/2a122e84f0c96868353fd913c8df42f0.jpg",
+      "count": 298
+    },
+    {
+      "cate1Id": "16",
+      "cate2Id": "2",
+      "cate2Name": "炉石传说",
+      "shortName": "How",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/ff869b8da8231a3f2e8136f6d46e052b.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/26d993d79c1daa53d1b083980e97559e.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/39cf38b099203cfdb730bd9bf5c928cf.png",
+      "count": 98
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "340",
+      "cate2Name": "光荣使命",
+      "shortName": "grsm",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/63057a52455e06c53bbd11eb915bf6e9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/028eb0c8e241a27041a5ddbec73de715.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/74bc91eb00a2452129dd9998c50e3635.jpg",
+      "count": 69
+    },
+    {
+      "cate1Id": "16",
+      "cate2Id": "3",
+      "cate2Name": "DOTA2",
+      "shortName": "DOTA2",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/dfb7341f7c3119fdc2e8cf0d8bf2592c.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/a887fa9dc9d6901b5fd5c86c8e169436.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/1fafd83196c5a75351fb9422c2e57d21.png",
+      "count": 133
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "148",
+      "cate2Name": "守望先锋",
+      "shortName": "Overwatch",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9967c133fb4af633d0cfc537519d4c7b.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/17dc1cd2164e3b50424ca0d9d80b2155.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/247512c321e7b626581ce9e3c3f71acf.png",
+      "count": 95
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "229",
+      "cate2Name": "新游中心",
+      "shortName": "xyzx",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c697b2e26ec2365edc974ecdf2a17a1e.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/b4fb71fbdedc3c4089616df87b535790.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e1aed76993a4de9e0fdb203310b8955a.png",
+      "count": 53
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "5",
+      "cate2Name": "魔兽世界",
+      "shortName": "WOW",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c533849b05ed10adc406ba88a2bd5ac3.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/b6ae05443687a28ab177e3ff17de1590.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/ad261c282823bd3e06aa8f613dedee14.png",
+      "count": 254
+    },
+    {
+      "cate1Id": "15",
+      "cate2Id": "19",
+      "cate2Name": "主机游戏",
+      "shortName": "TVgame",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/5ab9135cb67ea8ad63cd33edb871d903.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/602c38f19a4fe9af40fdb64a00ce9ed5.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/32affd3a3548756b2d084b92307e7586.png",
+      "count": 565
+    },
+    {
+      "cate1Id": "16",
+      "cate2Id": "40",
+      "cate2Name": "DNF",
+      "shortName": "DNF",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/02ef326d73d00d8a077d0d9b17fcee73.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/0cd803160cfc26acfd0831dfe7b3de92.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/c9a897beb1f21a6ffbbc93d97956b68f.png",
+      "count": 251
+    },
+    {
+      "cate1Id": "16",
+      "cate2Id": "33",
+      "cate2Name": "穿越火线",
+      "shortName": "CF",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/2baff99c2d776f70d95a43aff087952a.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/94691f7a259e7e85c4c65e5849cd94dc.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/6eecb81635b03ebc9272abe9216f6d21.png",
+      "count": 62
+    },
+    {
+      "cate1Id": "2",
+      "cate2Id": "287",
+      "cate2Name": "星娱",
+      "shortName": "xingyu",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/e0a141d2b106154302dd346e39e48804.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/433ec78ffc1214f641b81132612ae50a.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/2c8ff67b20f25a9e1fce1fda5b8fb6c5.png",
+      "count": 30
+    },
+    {
+      "cate1Id": "2",
+      "cate2Id": "174",
+      "cate2Name": "二次元",
+      "shortName": "ecy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/ae59f668fa93a3755464f632126fc786.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/e6aa94fa2d6c5498bd72f11422710f3e.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/7521d4b66724e8b1350b9db172c66c92.png",
+      "count": 128
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "196",
+      "cate2Name": "火影忍者",
+      "shortName": "hyrz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/5e86c65d5b58ff532a0040e32b5fa694.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/b780dc8903efd237b7125b5ce92d5aff.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/af8a865d3fd57707ed8446c8bb0da3db.png",
+      "count": 46
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "29",
+      "cate2Name": "格斗游戏",
+      "shortName": "FTG",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/aa8f65c3c7efd2c0300b39e9205bb9c0.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d014202049bb30994b1462714507cd8e.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/daa01548800d7fc83a6b9decef7becbf.png",
+      "count": 39
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "203",
+      "cate2Name": "热门网游",
+      "shortName": "rmwy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/725fbaec18cf45d6abbd4038511446a8.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/801b8750f0a509fd0b0c43139c7ab20b.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/45d9411d253db2d71e58e1fa248cac90.png",
+      "count": 131
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "113",
+      "cate2Name": "棋牌娱乐",
+      "shortName": "qipai",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d4345c32ba73714c4e3fb3fc872a41e9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/1ba73805803186ac8bcbf1c044b53fd1.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/3f0d3b10adf1dff66feca46af6361a63.png",
+      "count": 99
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "4",
+      "cate2Name": "星际争霸",
+      "shortName": "SC",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/285a8f700e8e9b18b165c9d1536aa552.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/6db9044e2f8a5f9b4e8b9e3e82302828.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/16b4bd4838e19bdc7f346ab738f725f5.png",
+      "count": 33
+    },
+    {
+      "cate1Id": "2",
+      "cate2Id": "124",
+      "cate2Name": "户外",
+      "shortName": "HW",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/b639e0126ab342b30680c45aa04f8f16.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/b24b716b2a13bc0b758632e5b20e0835.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/2a2a64b80958f3cd82f6d832f3e17b2d.png",
+      "count": 310
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "255",
+      "cate2Name": "军事游戏",
+      "shortName": "jsyx",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/0c5fd22b4f8403e235823dcb6919e36f.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/328faca66d7fe31d9c9ce38f99290ffe.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/def0ed72019fb0ba9a3eb3e8226139ab.jpg",
+      "count": 56
+    },
+    {
+      "cate1Id": "11",
+      "cate2Id": "195",
+      "cate2Name": "鱼教",
+      "shortName": "yj",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/022fc749ab53764b058cd525c3c05012.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/ac9e22d6b80cb57b878e6fa3cca15400.jpg",
+      "smallIcon": "",
+      "count": 90
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "260",
+      "cate2Name": "狼人杀专区",
+      "shortName": "LRSZQ",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/2dc4c178e7af34a0f92af8f57b87bd6d.png",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/927eeab9dde1b7d185e4beec21362403.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/af18c80673c4fc6ebf6b78f38b7f24e1.png",
+      "count": 39
+    },
+    {
+      "cate1Id": "2",
+      "cate2Id": "194",
+      "cate2Name": "美食",
+      "shortName": "ms",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/1556ea966e9327eb424ea3241f794c8e.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/6f7316ab336a8b1a7fdd021bd8e07093.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/03f4e5ae39abeda422414d4ea4625d7a.png",
+      "count": 70
+    },
+    {
+      "cate1Id": "11",
+      "cate2Id": "207",
+      "cate2Name": "企鹅直播",
+      "shortName": "qezb",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/3275fb77563d88a3ad381227f33a4025.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/26b5527ff895a2bebc3bb90f8bfaab48.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/88308908ba8fb9b59941178bbd76c49a.png",
+      "count": 81
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "200",
+      "cate2Name": "冒险岛2",
+      "shortName": "MXD2",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/cf5aa5d1f3a55d97cd57efdec87ad3f9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/475e7cc40a0e8e85c276ac6f9eb50c84.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/72d7a099bd5cc21fbe229b017f11adab.png",
+      "count": 55
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "187",
+      "cate2Name": "传奇",
+      "shortName": "cq",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/751d4b39809b0f7d986ee3aae698f892.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/892116023c969f29e4037fd637227bc2.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/9a13a6baffc74abb9672369dfde226ff.png",
+      "count": 70
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "189",
+      "cate2Name": "虚幻争霸",
+      "shortName": "xhzb",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/010cabb0856906a620f813415f93e2bb.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/c75690fd35a37daa43d17ceaedf5ac04.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/b6a7abaaedfaf9190cf941bd6295e88e.jpg",
+      "count": 26
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "240",
+      "cate2Name": "阴阳师",
+      "shortName": "yys",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c4dfa8cb147f53c5a3210bf4a8a93ef8.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/58add83c479d4e47fc3a62a4be253934.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/4ea30c49fc248105b0ed656e6d813a7d.png",
+      "count": 22
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "87",
+      "cate2Name": "群雄逐鹿",
+      "shortName": "qxzl",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/482ecc9b388f5a560531767cff8b4009.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/1c2236089d48d979c07162a81160cd65.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/6f576ae3bb351cc0bb64465cd9dba28a.png",
+      "count": 6
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "345",
+      "cate2Name": "兽人必须死",
+      "shortName": "srbxs",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/eeb5d3053e2f5f3733f3970aa2016924.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/6f0f3336a45cab04469a719623bc673c.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/c39c2fa1c40a75a098bec25b6f466add.jpg",
+      "count": 11
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "322",
+      "cate2Name": "火箭联盟",
+      "shortName": "hjlm",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/bb07c5f790a6dc3c8b8ef4f645c251f4.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/72814b2482ae8baf6c25caf4b774a3e5.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/aff549ce7b1e528c48d9a5839733b037.jpg",
+      "count": 7
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "14",
+      "cate2Name": "三国杀",
+      "shortName": "sanguosha",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9650c1b0ed00ea010d44654f8bcea58a.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/c3b0e07b2cdfbd9fc762232ea31594da.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/4502bf1422b62fb868c37ec51769a971.png",
+      "count": 20
+    },
+    {
+      "cate1Id": "11",
+      "cate2Id": "283",
+      "cate2Name": "设计师",
+      "shortName": "BLOVES",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9f37996aaf939f0c845f3b346cc83d79.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d699282488c675ca8192e0e62395f577.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e56fdc9a8df33751c016e3d456e3db3e.png",
+      "count": 36
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "275",
+      "cate2Name": "斗鱼游戏",
+      "shortName": "DYYX",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/3efffd19ebf61935c0ea9dda7adb27da.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/77d969e6ce6ce987c750b0a905d1c8b6.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/b423b755ac77c1f17c4f7f115c28ee8e.png",
+      "count": 8
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "330",
+      "cate2Name": "秘境对决",
+      "shortName": "mjdj",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9788ddf481e39953272a7d980bd50065.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/38bca47210fe0ca1b031169f941ebb27.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/bc5eeecf02f4663d3f9ae54ad87476ec.jpg",
+      "count": 2
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "179",
+      "cate2Name": "梦幻西游手游",
+      "shortName": "mhxy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9f6669302486ee502316e4125d2f90ea.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/27bc3ae8a92fb40f02bd9a71adbd9db9.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/c6b47911ff3926d87db8811802a507a3.png",
+      "count": 24
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "35",
+      "cate2Name": "风暴英雄",
+      "shortName": "HOTS",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/a261f533177b3c78859d9d29d8eb0633.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/04b83dc8bbdeef4cc04c04cea581a9c2.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/60c66daeed660c4657a0f8a8c2640b40.png",
+      "count": 29
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "55",
+      "cate2Name": "魔兽争霸",
+      "shortName": "mszb",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/2bcd85bc223deaab025ff6fda1802b2d.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/6aac4340f1c23cf9f6a6b5cd637f6527.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/2a92db5e12c5e20317078cba9e7f346c.png",
+      "count": 114
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "47",
+      "cate2Name": "竞速游戏",
+      "shortName": "jingsu",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d1e30ea9f50261a9b1012716a50e8fa5.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/203e1ef12050f34f35bb1e3283648eab.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/546aca6e41ead4b075e88b2e9adca69f.png",
+      "count": 47
+    },
+    {
+      "cate1Id": "2",
+      "cate2Id": "159",
+      "cate2Name": "时尚",
+      "shortName": "ss",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/40d517165a829828caf7a508a63c3168.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/218b2f4c11e3b8c61cd187564fffa0f4.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/13b693742f9f99698a43b37903d818bd.png",
+      "count": 18
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "59",
+      "cate2Name": "天涯明月刀",
+      "shortName": "tianya",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/599af94d27cda5a4e191db946708c41f.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5a8f00f7c729644b0470ec08d101f6a8.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/cf13aabb3d547d137fe173aeb97c88a2.png",
+      "count": 133
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "190",
+      "cate2Name": "皇室战争",
+      "shortName": "hszz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/10397a9ecec76800d0b1eb9048693a30.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/f63d3a8d35d08e4804879f1793f3eb71.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/81e3a2a928ccdb27c48c7160ed231fef.png",
+      "count": 14
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "11",
+      "cate2Name": "使命召唤OL",
+      "shortName": "CODONLINE",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/ee43393bde36d35da30caa8000947224.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/cc57470e76e82e7570f738e9a3ad4de3.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/8c9fa944ace1c792ffd18cc9cc700084.png",
+      "count": 38
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "6",
+      "cate2Name": "CS:GO",
+      "shortName": "CSGO",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/6e33f6dee7a312bcce7aa92b80c9f701.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/180ac281ab3f980bbfdff366d9636072.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/5210286dd2410057a91007106d8d531c.png",
+      "count": 67
+    },
+    {
+      "cate1Id": "15",
+      "cate2Id": "44",
+      "cate2Name": "我的世界",
+      "shortName": "MC",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/0cb76bb4d1f56bc617c87fcca016080a.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/95a7a48a57bf02b3f46d3afa23f1be89.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/9e25b6c1e751d945e7c1c653719394f1.png",
+      "count": 20
+    },
+    {
+      "cate1Id": "2",
+      "cate2Id": "175",
+      "cate2Name": "音乐",
+      "shortName": "music",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d585248ffbd27ee3d386f587e64e82f7.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/fe21193c72537bad3cd9917d67e4b02c.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/17eae7d84cacd7071b182bd03499db2a.png",
+      "count": 72
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "217",
+      "cate2Name": "DOTA",
+      "shortName": "DOTA",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/b59fa88aa7d079c9f59be7f9ad47b4d2.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/e7bbe8818f8da82e35e5b69c7c4321c7.jpg",
+      "smallIcon": "",
+      "count": 9
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "253",
+      "cate2Name": "捕鱼休闲",
+      "shortName": "byll",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/6f810039753ef3988e3f105a6a3518b6.png",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/2736cdf37df30eafc359e4d12f608e74.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/3bd6dbee07385ec9571aae587e90733d.png",
+      "count": 20
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "261",
+      "cate2Name": "八音符",
+      "shortName": "byf",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d5423dfe31a583431b01947bd5c5a4e3.PNG",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/55a7e09b3fc8c61b8bc2467dfd3a4936.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/7dbaa09786bb150fe068c6e949e7a79f.png",
+      "count": 1
+    },
+    {
+      "cate1Id": "15",
+      "cate2Id": "26",
+      "cate2Name": "怀旧游戏",
+      "shortName": "classic",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/1572191247cc4b08ff6ffdd4bee808d7.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/568029e11adb524c778da572b578f2e3.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/ea235dda9ebcb03074a757c596b2944d.png",
+      "count": 124
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "79",
+      "cate2Name": "流放之路POE",
+      "shortName": "PathofExile",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/baff595e9b6dac78998cc466c9b66a60.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/176eb036de63f451b14696392cba5e45.jpg",
+      "smallIcon": "",
+      "count": 44
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "254",
+      "cate2Name": "二次元手游",
+      "shortName": "ecysy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/5d7d1c0e3b8ad1053209a52dcaf1ac81.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/e061e6a94719fe984038da1c73bf4038.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/2d15dfd18bd570e25ded8e8b51fab719.png",
+      "count": 24
+    },
+    {
+      "cate1Id": "15",
+      "cate2Id": "347",
+      "cate2Name": "堡垒之夜",
+      "shortName": "blzy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/6723a7de606561dec44e3dbf98600f99.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/10253417ea81474dee99121655f5f8be.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/9b473b98d4e3ae103816c200cce85174.jpg",
+      "count": 31
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "46",
+      "cate2Name": "逆战",
+      "shortName": "NZ",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/a73c6f233b0c25fa0469bc34cd691172.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9f78237f61c3d7b1b197a64d0af0e08d.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e5384e94cfb27649e2729153cb9055ad.png",
+      "count": 42
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "318",
+      "cate2Name": "最强NBA",
+      "shortName": "zqnba",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/a3234d6fcad609612b54b057218f2590.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/b1bbeecad3d2e0f7f5d5bf6016dccebf.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/16ed4368b2e5d4943b61f7c57fa2bd00.jpg",
+      "count": 18
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "155",
+      "cate2Name": "篮球游戏",
+      "shortName": "lqyx",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/ba9557f40ab76d7bf2e1e5d7c000d616.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/20b79a9c2d25f1291b0b5ff5f473d5c6.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/7acec23594613ecda0ba56bd8d9a17d7.png",
+      "count": 48
+    },
+    {
+      "cate1Id": "15",
+      "cate2Id": "23",
+      "cate2Name": "饥荒",
+      "shortName": "famine",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/ea235f91a6d4a3ca682d04e3d9a6f485.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/f7839d347329e7d4b3675af50c0e0b01.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/5506815e096ce1f7008abc122afa7dfa.png",
+      "count": 17
+    },
+    {
+      "cate1Id": "3",
+      "cate2Id": "134",
+      "cate2Name": "数码科技",
+      "shortName": "smkj",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/e1487b7ae1c54f90a5f70c07a772267e.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/7d14c2a7e7e8c8f773d9d25c18f40ae9.jpg",
+      "smallIcon": "",
+      "count": 122
+    },
+    {
+      "cate1Id": "3",
+      "cate2Id": "136",
+      "cate2Name": "汽车",
+      "shortName": "car",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/f4a5922bba2ead559e888cb8a6def9b8.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/b78528a4925fe48077c88ed433deeaf8.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/259c981502298cd57757b70d895e3411.png",
+      "count": 52
+    },
+    {
+      "cate1Id": "3",
+      "cate2Id": "215",
+      "cate2Name": "财经",
+      "shortName": "Finance",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9b53e0c721881749248cfcba52a09e3d.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9f42f02300d1ac339f269662ef187366.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/b7b4249e515e35fd64610748d12a54d5.png",
+      "count": 53
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "288",
+      "cate2Name": "魂斗罗归来",
+      "shortName": "DLHGL",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/2611509bb4210b1b417bf3bea9cdcb54.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/1526599fce2c22b07187e6ff97f3e0a2.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e2fa1e6921e62ad6b38c251615bc401b.png",
+      "count": 25
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "258",
+      "cate2Name": "枪火游侠",
+      "shortName": "qhyx",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/f57334022785c140f6eba2c7ad2ae8ca.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9ee064dc8b6c983728469cc312cc337c.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/f1fb4f247a56e4c9bad6935036cb4830.jpg",
+      "count": 20
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "192",
+      "cate2Name": "球球大作战",
+      "shortName": "qqdzz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c632899174ee993b297fba2c4bb94be3.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d55ab0fa8a2c840f71123738e83fd088.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/913a3aea3d1b8dd862cd74fa69f2fdd3.png",
+      "count": 21
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "277",
+      "cate2Name": "新倩女幽魂",
+      "shortName": "ONLINE",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/f55c641f504688b346be90383b5253b2.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/0e8bce63baa3d89bb8d50d5e361c2e9e.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/c12de3c9a86526119557d38903f5b2c7.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "24",
+      "cate2Name": "神之浩劫",
+      "shortName": "SMITE",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/b124888fc5d7e71e6367c0820f2adb7f.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/375c30aa91bbdc5b86acb0b9c648cd81.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/25944da4afcd1ea866ae704b1b5281f4.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "349",
+      "cate2Name": "绝地求生-全军出击",
+      "shortName": "jdqsqjcj",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/48174f4201b4c8372b65b16f96c32a8e.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5d0fe7df5ba0cd3155235400f41c1416.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/bda4d98df128a165e89c31f94df35f53.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "350",
+      "cate2Name": "绝地求生-刺激战场",
+      "shortName": "jdqscjzc",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/832c2da9fd665a7a8e4a010e5bee99f0.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/575670778f5be3a461a395347038d527.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/a6f1d102c17ec6b75b30ebc1c00fa147.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "197",
+      "cate2Name": "无尽战区",
+      "shortName": "WJZQ",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/5cdb6bed4316c6170e62d4b4a4ed0359.png",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/171789b1c2b83a2347acba2f52483404.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/347ea34b807b17c9b0c660604ba86371.png",
+      "count": 6
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "295",
+      "cate2Name": "神武2",
+      "shortName": "WS2",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/8992ffe66f2d69ff169cceb84dab35da.png",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d6821f1f56bd0bd34fc6842e1f2c57c5.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/ace7ff0c1a00b287f25edebc8c357a2b.png",
+      "count": 15
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "177",
+      "cate2Name": "部落冲突",
+      "shortName": "blct",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/fcb784d2d41d2230c467ccf9070dde3f.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/eea39cd8b41bf91ab38fab338351c0f6.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/a90448dff795e84c415236027b80829c.png",
+      "count": 11
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "216",
+      "cate2Name": "刀锋铁骑",
+      "shortName": "dftq",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/b1ff814294526014c5ac986e79682216.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/4434a4b96338ec3196bd592c077c4bf6.jpg",
+      "smallIcon": "",
+      "count": 8
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "147",
+      "cate2Name": "高达文化区",
+      "shortName": "GUNDAM",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/bf8777563c75141af936e3e25a4e42f9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/3daf091c489ff9a05cee7d3350fea5e7.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/2159b41f0f6b5e552ceb029aa6f10fb2.png",
+      "count": 5
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "198",
+      "cate2Name": "问道",
+      "shortName": "wd",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/12c5337296bc6479889a9aff7b1fd3e1.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/f9b73a21e9efbf9a47f2f61a27b9fff5.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/a4658b754b282094b9d31837b44c2144.png",
+      "count": 19
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "48",
+      "cate2Name": "300英雄",
+      "shortName": "300heroes",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/984c7754c655bd201b079ebae65e2bb5.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5bd7abd9c301e954ce9e42ef3397fd3b.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/0d2b1a8a79ebf1fd69b900e635442b60.png",
+      "count": 8
+    },
+    {
+      "cate1Id": "2",
+      "cate2Id": "274",
+      "cate2Name": "爱逛街",
+      "shortName": "agj",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/6fa59ef2b82206a217c27217287737b9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9a94263f67afdd5dafd8a9d1d9e50b3b.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/73fbe012d68baeca720b84a14baf1d0a.png",
+      "count": 50
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "30",
+      "cate2Name": "综合手游",
+      "shortName": "phone",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/07681468c42d49f096f8baa45df6ebe9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/fecada4ba3e0b4997d6892f8094eb2e7.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/6e781bf8f9fa4e04284f5ef6ffa1e245.png",
+      "count": 122
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "285",
+      "cate2Name": "决斗之城",
+      "shortName": "JDZC",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/92e67e2d8019220d314f15a971345720.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/af8516b0eb0df51ada8e0602c80796e1.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/3bc0ec45d13a7cc30a2a110a4f09d1e4.png",
+      "count": 32
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "32",
+      "cate2Name": "暗黑破坏神3",
+      "shortName": "DIABLO3",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/121b523ec0b8c1731fd6cdd51f4cfc67.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/cb93d5c827943183431827479814239f.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e6dc96bd0a6281ffa467c3dc196eb14d.png",
+      "count": 30
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "273",
+      "cate2Name": "迷你世界",
+      "shortName": "MNSJ",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/97ba83540493f0f02838609707685ad9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/c08f4eee87f8ab91d58d7771e6ea3395.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/92a47318e40f268320e4f5a1a67d81ed.png",
+      "count": 7
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "244",
+      "cate2Name": "街篮",
+      "shortName": "jl",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/831ea319d7a8b6487ee48f3e5ff0170c.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/6ec677b6e8f52211b493c279d569c5fc.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/288e66f0b8604925ce000a29951e8633.png",
+      "count": 22
+    },
+    {
+      "cate1Id": "11",
+      "cate2Id": "208",
+      "cate2Name": "视听点评",
+      "shortName": "stdp",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/14165851592590d24a3380fd968ff70b.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/3781c8b380429c0a01a5d9246af33b27.png",
+      "smallIcon": "",
+      "count": 498
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "65",
+      "cate2Name": "剑网3",
+      "shortName": "JX3",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/10bfb185da447339c78bc319f6d79156.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d413c8d604723ba125d0d9f8fdf23855.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/7e88a750ee15ebfc8f0098743dfbea70.png",
+      "count": 26
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "111",
+      "cate2Name": "卡牌桌游",
+      "shortName": "KPZY",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/3f1c6d82b0091beea4e98014f653cd3d.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/0a87fff9ab720f8c1ee05a15d0e3203c.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/c04a9c441cd6380603587da35fdc65eb.png",
+      "count": 23
+    },
+    {
+      "cate1Id": "11",
+      "cate2Id": "183",
+      "cate2Name": "国漫",
+      "shortName": "gm",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/04a670b23e725f48c3a0a6a5a7a75a24.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/7bf223b646cc1782e8390ecffda29c27.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/c4ea47d4d87e746b66583bc82c93d411.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "291",
+      "cate2Name": "口袋妖怪复刻",
+      "shortName": "KDYGFZ",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/e5c3613f543e892d60a5b460cd9a860c.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5c03da783f651a8a1dae9297d0bd9650.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/2f9110fea8145a2f2524bfa6cd3d0696.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "13",
+      "cate2Name": "剑灵",
+      "shortName": "BladeSoul",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c436c4c3c25cf0866d96f7ee8ad3f925.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5e3a49396165a34da44b4db3a258d399.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/aa6ecb94d85c7c329aa48e0a536a5008.png",
+      "count": 28
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "286",
+      "cate2Name": "命运2",
+      "shortName": "MY2",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/28121153e0f5e1732f56b26a406a77ce.JPG",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d3f55728c3651a9f172a2c5921c1cd89.JPG",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/dff3031b639fc0e847545917bbe577fa.PNG",
+      "count": 10
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "326",
+      "cate2Name": "大话西游2口袋版",
+      "shortName": "dhxy2kdb",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/76b9dfc4005cbff32b1282cf4af59c08.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/3cbb9d4555aada8fac21c388949dc10c.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/6cd0e653939f8511c97ccc03b032c35f.png",
+      "count": 4
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "256",
+      "cate2Name": "街头篮球",
+      "shortName": "jtlq",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c7de6322babfbc634f54c55de44cd5fb.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/94f6c75659583058e960930b1c76816a.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/129bbd32a2ab369fab6227d37f93e9d2.png",
+      "count": 3
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "264",
+      "cate2Name": "龙之谷手游",
+      "shortName": "lzgsy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9d8a9cf3366ed8d543c54e5d3078885c.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/f38278b95d04bcf078dc957e0f31b7be.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/31998095fcdaf485b4f246c51f4a507c.png",
+      "count": 5
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "54",
+      "cate2Name": "音乐游戏",
+      "shortName": "MG",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/18f16be7f6221499dfefc677dd13051a.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/0116342c283da46d09d631b9b3353765.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/28f9c84cc761cbbca068f607f4b8dd49.png",
+      "count": 7
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "327",
+      "cate2Name": "九州天空城3D",
+      "shortName": "jztkc3d",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/2dcd7aa5829cd5f07773f6d85791af4e.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/6a2df65310e2d9df5e737ca098b74802.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/4062da8f9e0ec2e2cf0c7443ad563be1.jpg",
+      "count": 1
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "66",
+      "cate2Name": "反恐精英",
+      "shortName": "CS",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/86fe73e0d9aaa4672874c11753a14dbc.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/83999454491930cf9c8d1f9d550005bf.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/ace0ef2726797c20cca92c68ac3fb0d7.png",
+      "count": 12
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "319",
+      "cate2Name": "战就战",
+      "shortName": "zjz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/963967f3574bb2d691213852ac457ef2.png",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9adf3c5a04ee0a52da9406a9e101450e.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/1a02307759c63273ff2ae6aa50fa14ca.png",
+      "count": 6
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "332",
+      "cate2Name": "剑与家园",
+      "shortName": "jyjy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/2468690280e0c8fd48f2dc804416ba24.png",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/ab4374c5d064949bef479b50905259ed.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/608b94e572654c642a37c67db77603db.png",
+      "count": 1
+    },
+    {
+      "cate1Id": "2",
+      "cate2Id": "311",
+      "cate2Name": "颜值PC端",
+      "shortName": "XX",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9080a8bbaa0113a5f857f1e888bedca8.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/06d8d4d79ed2f444dd6d88e374c7cd42.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/b54901fb89f31b146136e11a5e3ad4df.png",
+      "count": 55
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "335",
+      "cate2Name": "战争艺术·赤潮",
+      "shortName": "zzyscc",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/14513e9f99f78e3e80f52b32a92ff64f.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/c8afdbf107d185939cf3e7118e304733.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e2822ae79571914f7c68012c67f11a5d.png",
+      "count": 4
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "294",
+      "cate2Name": "不思议迷宫",
+      "shortName": "bsymg",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/b0c2285ebe3709378a1353099edb3651.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/4d1bed8fdc161ee12fc9b1526b012de7.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/3abc1c0015f9acc3fb82a92d48f78c3b.png",
+      "count": 5
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "292",
+      "cate2Name": "永恒纪元",
+      "shortName": "yhjy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/4e9ff9864af1f85671ff9360ea7205c3.png",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/45f327743221183fb1c59cc3103b4c06.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/7c72c6ac8263373056a321e78f13397f.png",
+      "count": 6
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "342",
+      "cate2Name": "三国如龙传",
+      "shortName": "sgrlz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/ded77ad1f03829ae019674bf0339a3f1.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/875c51d1c93cd835c2b976c708437513.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/c3be8235b5b5b561d1b232fee7295592.jpg",
+      "count": 8
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "259",
+      "cate2Name": "仙境传说",
+      "shortName": "ro",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/0c62cf8d9c1df1e7704d1a7cca8fb74d.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/c8d7f6616e37b1896222f93375801478.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/7ef054096a74d7be7a942e31d6ca5197.png",
+      "count": 8
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "228",
+      "cate2Name": "单机手游",
+      "shortName": "djsy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/69d8f5372a0a57fc750b8ab09170f2d7.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/40bbaa98defda3289bd4678d6626de06.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/f63f8c164b3e6283d6d334936470d17e.png",
+      "count": 20
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "331",
+      "cate2Name": "qq飞车手游",
+      "shortName": "qqfcsy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/16d747299bde33eabf8a87f3b0fe5597.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/42d9d3dc5268ab04609c666ff2ffe024.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/f4368f9ebae673a052fe172556370a34.jpg",
+      "count": 3
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "334",
+      "cate2Name": "玩具大乱斗",
+      "shortName": "wjdld",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9f29a5dbe3663e9e4caf1f0f9a2dccf9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/8fe38af41dd18c41187fb4761610021a.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/3d2b3f04ae5f073a72917dc02e4f086a.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "15",
+      "cate2Name": "激战2",
+      "shortName": "GuildWars2",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c061be6a74e33148a7ec6969cd35c7d9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/a31fc7999cf06ab4167325fc4df5a74d.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/de5d40c0e58e86b32e1c7b707b6c0a34.png",
+      "count": 7
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "339",
+      "cate2Name": "赛尔号",
+      "shortName": "srh",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/ff43248ae65bd7de5c87036d555393ec.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/f83c802d86b9f48e43a229335e56d535.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/3ebf80ea2e996054d681b90f8c44339d.png",
+      "count": 3
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "289",
+      "cate2Name": "英魂口袋版",
+      "shortName": "yh",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9108efb90f16cdb227f874df59d64f4f.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/ead59829dd708eae156c553a7684761c.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/3b122213cae4b2d26fe63ba069dcf760.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "298",
+      "cate2Name": "植物大战僵尸",
+      "shortName": "ZWDZJS",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/3eefe4f392e08398e6e46e395f83e165.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/7c2841c16fbaa204d9469261621ce2cf.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/805134a9bd39143cc2554be1b1bf3c04.PNG",
+      "count": 1
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "317",
+      "cate2Name": "列王的纷争",
+      "shortName": "lwdfz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/09afe9b5d60a25c44f6425793dac7791.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/aa2c93297503437eedfdecee8884e4b1.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/bdbcec47689c8b6efb038ae0278e8ece.jpg",
+      "count": 0
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "299",
+      "cate2Name": "桃花源记",
+      "shortName": "THYJ",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d3edd5208858e7fe97b0fc50005792a3.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d3f7103e5aca38e0c034e6eb7cf2a98f.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/342e1ba8595b82d07d86342f0696b412.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "328",
+      "cate2Name": "我的世界手游",
+      "shortName": "mcsy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/aece38f2d83a8ac9917590b747133721.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/841f707863131e6c9caca8acea2d8557.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/0bdbb365364595048e3aabb2b1c76af8.jpg",
+      "count": 2
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "243",
+      "cate2Name": "蛇蛇争霸",
+      "shortName": "sszb",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/44561d804c7c343d279a7bb861901246.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/f878d4d99f0dd89af6a0118d3b0d0395.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/1f7310b357b63561b6e77a24d0718dd8.png",
+      "count": 4
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "324",
+      "cate2Name": "超进化物语",
+      "shortName": "cjhwy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/eda32e5f351b5877daeb67ba83b0b397.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/4e454af9cab58f9ffc9a9d402f38cd71.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/613c63e20c7c2ddfaff1f92daf607641.png",
+      "count": 1
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "343",
+      "cate2Name": "青春篮球",
+      "shortName": "qclq",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d3fb60701adfbf5bd633f8cd85f258f4.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/bd212ee8723dd37d5f8d05c37ed5a45a.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/0abf93551ad207914c34eb8f5b15d0e3.jpg",
+      "count": 8
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "266",
+      "cate2Name": "光明大陆",
+      "shortName": "gmdl",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d2b584ee1d58b7cc8ec874e968d39613.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/08b3db9d0fa150e0aeb52c5c570f222b.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e9f78793e98a22e102ef790ee3bd6573.png",
+      "count": 3
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "69",
+      "cate2Name": "梦幻西游",
+      "shortName": "MHXYOL",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/e129b861470bba48646b1aa0a1da3d8e.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/8d963c1b9f207bedbd7583d1d43833ee.jpg",
+      "smallIcon": "",
+      "count": 13
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "307",
+      "cate2Name": "镇魔曲",
+      "shortName": "zmq",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/286f43cf7632007afb98a040835e4419.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/e8db56bb45fec328f7832dd367a66b6d.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/d4d20166daae5aa102897ae25602cfe8.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "106",
+      "cate2Name": "龙之谷",
+      "shortName": "DragonNest",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/49b93de18197170b2f11aa8577adb4cd.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/3c723bd835ea008b34fc2cf71b868208.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/d3195272039f3fe06aa3d4bc6bd7f2ca.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "213",
+      "cate2Name": "精灵宝可梦",
+      "shortName": "Pokemongo",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/2c2d831605b653960fdd57cdd64ce192.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5dff752e7715db8d792007b68cc25f92.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/aa92724c788352abd7fe87c5b29ed757.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "315",
+      "cate2Name": "寻仙",
+      "shortName": "xunxian",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/2fe28b757e895146250f326f240f20a8.png",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5a7ab20a13f3a68bb827e6218d0af603.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/b3f1fb8178494e50ee5999c6c11aa31c.png",
+      "count": 1
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "245",
+      "cate2Name": "梦幻诛仙",
+      "shortName": "mhzx",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/7a697d2064e95f8954ac52d9c05488e8.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d8775d5f606b87ea2c72e47da3ae8bfd.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/175bf9bd98c19c314faae177a22910f6.png",
+      "count": 1
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "325",
+      "cate2Name": "野蛮人大作战",
+      "shortName": "ymrdzz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/093f98a13bd94b37fbed03a1e32b1990.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/516b8246a1e9e650a9f51d5ab5bb9516.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/62f86482745ce5e2035644dfd95da8c6.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "51",
+      "cate2Name": "足球竞技",
+      "shortName": "footballgame",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/cc4f314f1e0bff8bccb7eba462d49328.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/58cf56e002764d0451fbde66853c4a21.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/f23f1425a0922a2389d9f36e9bdaec06.png",
+      "count": 22
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "282",
+      "cate2Name": "天龙八部",
+      "shortName": "TLBB",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/7d218a3ae4c7e3d06e963296f11047ea.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/96c40b071dcc6951b9c98ee36e77083c.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/9133d45d871a8a095fe61bc56bb12e2b.png",
+      "count": 1
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "313",
+      "cate2Name": "口袋妖怪日月",
+      "shortName": "kdygry",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/a7416c37e20e671e34cedf308094d104.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9f25f672d595fac1ac8a0788df0c4fab.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/9b77042bef4d2a7ce435e4569b28a050.png",
+      "count": 1
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "308",
+      "cate2Name": "一起来飞车",
+      "shortName": "yqlfc",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d02e5d7becfa5f20387fcdb6fd6bda50.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/a4d1b716c1a527f3e387c76df8967e5d.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/6b9e7caa11e2f0df3d4cf2721501c939.png",
+      "count": 3
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "329",
+      "cate2Name": "蜀门手游",
+      "shortName": "smsy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/27b4941340406c47aee3a64af044585d.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/a7159301a316ec91acff7ac732af2fcc.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/08f3cad16cc361487f66125738b19233.jpg",
+      "count": 1
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "278",
+      "cate2Name": "弹弹堂",
+      "shortName": "TTT",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/7d8eaf516f1b2564c85cf18d2058c054.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/36ed015d91a0e296f480bd44764d9ed6.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/48d74621865fdcea4ac7186d44d8dd87.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "164",
+      "cate2Name": "怪物猎人ol",
+      "shortName": "MHol",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/cd8809e4f3c5dc1fc8c63dd479f852cf.JPG",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/265691d8766854af6b9cf479513ed205.JPG",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/cf59934b5c9323bfe6748ab18c38d763.png",
+      "count": 7
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "321",
+      "cate2Name": "卡片怪兽",
+      "shortName": "KPGS",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/c437dc381b9f7fa623705ac43b5d2b62.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/8656e46931b5e4df06e99e1467882dee.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e27d9fa000bf7e62ca85351f0262d8c0.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "170",
+      "cate2Name": "新天龙八部",
+      "shortName": "xtlbb",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/f1baeaefe9108d15973d8132db5acd12.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9cfe27bd520c677c3dd03541373d7ce0.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/e7e6ca77532943b3fd85f849eb3ebd72.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "186",
+      "cate2Name": "神途",
+      "shortName": "shentu",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/5779fcf96cea289a481b67a793d286bd.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/4fa3977adcb60cb5f793e8fe250f9ea2.jpg",
+      "smallIcon": "",
+      "count": 10
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "226",
+      "cate2Name": "创世战车",
+      "shortName": "cszc",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/38794e2b471c3e21d1f4c5f6c7065c58.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/1bb1502662c1a3c5a934bd99bd302966.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/23e4f6a13c19a57982332114c6385745.png",
+      "count": 3
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "62",
+      "cate2Name": "网游前瞻",
+      "shortName": "wyqz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/b7d8d989b0d0447c44f114f9f2a44da0.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/5e6e39b582ee38494d08d95f4fcc91d2.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/bd2963c7cd9e81c39fe4b315fb402136.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "314",
+      "cate2Name": "太极熊猫3",
+      "shortName": "TJXM3",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/eb9449fa13eb27bd533c89f506b7ec21.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9de89f664d6308062b0e9e3fa9e57dc4.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/5c2f170d4bedf3e8d692bc87fdabc286.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "303",
+      "cate2Name": "欢乐球吃球",
+      "shortName": "HLQCQ",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/1b0b507b7747f3e9324096f01ffb679e.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/c6d618fbd0885b907739df0ce70bf10f.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/5fec5feac2f35ebdcd21e0bd7eea885b.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "180",
+      "cate2Name": "NBA live",
+      "shortName": "nbalive",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/e165d65b33b393824c66f2f01c849fb0.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/26b57ce1434d36fdf0fffbe2b8b41d92.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/d55d620a6fca28a736b3b4697072c1e0.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "341",
+      "cate2Name": "其他手游",
+      "shortName": "qtsy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/ecc159afdbfa1585bad17ba96a464f69.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/e1fa24f3bd0db0daa2863d5f8304ae2d.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/92d3008a5653c9fa68ae7ae8abb73f1c.jpg",
+      "count": 299
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "320",
+      "cate2Name": "星盟冲突",
+      "shortName": "xjcm",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9487b0dea2c7ce7d9469b3c199f76767.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/507d22ec630cb6323d21cabae4bd0983.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/5d5fa5f1441b80d5456275d67f09d2fe.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "3",
+      "cate2Id": "204",
+      "cate2Name": "科普",
+      "shortName": "kepu",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/af0363b31de93d2159bf9c3baf063b71.JPG",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d5113b6498a4637b4ffdda65682ecfaa.jpg",
+      "smallIcon": "",
+      "count": 30
+    },
+    {
+      "cate1Id": "3",
+      "cate2Id": "212",
+      "cate2Name": "军事",
+      "shortName": "js",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/7da5371fccaa0e248c8e83c9f49f35f9.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/9342ec730d8df38e00067388a84784cf.jpg",
+      "smallIcon": "",
+      "count": 27
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "210",
+      "cate2Name": "枪林弹雨",
+      "shortName": "qldy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/5f27378b38471d557228e7c8322a30ba.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/7ce77e282a781dba08fab82b459f6723.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/6c5787238e6f52960652f118f01421e9.png",
+      "count": 2
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "157",
+      "cate2Name": "诛仙3",
+      "shortName": "zhuxian3",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/d0d56512c56b15844cb862c727ca70e5.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/a5f3d858c1c2440a42418be4a9a757e0.jpg",
+      "smallIcon": "",
+      "count": 1
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "77",
+      "cate2Name": "英魂之刃",
+      "shortName": "COS",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/9036e680ff7cc64c65bb2163ee0237b0.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/542a5425ac914b9f17afac17335d133b.jpg",
+      "smallIcon": "",
+      "count": 8
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "309",
+      "cate2Name": "轩辕传奇",
+      "shortName": "XYCQ",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/8712199fde146a5e6ebdc91b24bc1900.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/6678ad30295f7cd9cf85b2eb9917b2aa.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/f379517d2a8dc0cdda22004f76280c64.png",
+      "count": 0
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "348",
+      "cate2Name": "乱世王者",
+      "shortName": "lswz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/751d84a6bd3970e9e60914cba8603dde.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/2684282612aaca58623f37dae4398603.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/726e891db9b43ea1967e0b4f7b05daad.jpg",
+      "count": 10
+    },
+    {
+      "cate1Id": "9",
+      "cate2Id": "351",
+      "cate2Name": "初音速",
+      "shortName": "cys",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/11512f508e5c4bfde149f08b3d1eb657.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/bd88660dd09a049f32fa228820ceee2b.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/cd82b4c3116d40ccd460c3507465c3bb.jpg",
+      "count": 2
+    },
+    {
+      "cate1Id": "13",
+      "cate2Id": "250",
+      "cate2Name": "正能量",
+      "shortName": "znl",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/6159579ed8d8792ddf3fd30a97a91795.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/a5439515177f030622ddc83c86aba7d8.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/a834153fb4227ee917231ad85e0b7931.jpg",
+      "count": 40
+    },
+    {
+      "cate1Id": "1",
+      "cate2Id": "346",
+      "cate2Name": "醉逍遥",
+      "shortName": "zxy",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/251baa6aa70f9b4c31d32694d331e87f.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/948c51fb7beea27a4567c918f5b1dcdb.jpg",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/1c03e6b82d31b2891e8929bd48f4ec7a.png",
+      "count": 7
+    },
+    {
+      "cate1Id": "8",
+      "cate2Id": "201",
+      "cate2Name": "颜值",
+      "shortName": "yz",
+      "pic": "https://staticlive.douyucdn.cn/upload/game_cate/0ec0627e8e52a0e391506bd6b633c1f5.jpg",
+      "icon": "https://staticlive.douyucdn.cn/upload/game_cate/d1546cfd3f7f985719f894496f2a7b2e.png",
+      "smallIcon": "https://staticlive.douyucdn.cn/upload/game_cate/f779aaa7554c44c8f0e43e2845a8683e.png",
+      "count": 405
+    }
+  ],
+  "shortName": ""
+}
