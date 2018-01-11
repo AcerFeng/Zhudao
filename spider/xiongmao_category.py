@@ -71,9 +71,9 @@ class Handler(BaseHandler):
         for item in kw['results']:
             try:
                 cursor = self.connect.cursor()
-                cursor.execute('select count(*) from category where short_name=%s', (item['short_name'],))
+                cursor.execute('select id from category where short_name=%s and platform_id=%s', (item['short_name'],item['platform_id']))
                 result = cursor.fetchone()
-                if result[0]:
+                if result:
                     # 更新操作
                     sql = '''update category set 
                         name=%s, 
