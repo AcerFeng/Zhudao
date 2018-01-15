@@ -40,7 +40,7 @@ class Handler(BaseHandler):
 
         try:
             cursor = self.connect.cursor()
-            cursor.execute('select cate_id,id from category where platform_id = 2;')
+            cursor.execute('select cate_id,id from category where platform_id = %s;' % str(self.platform_id))
             results = cursor.fetchall()
             for item in results:
                 print(item)
