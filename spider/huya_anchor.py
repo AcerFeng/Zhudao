@@ -61,23 +61,6 @@ class Handler(BaseHandler):
     def index_page(self, response):
         save = response.save
 
-        if len(response.json['profileList']) >= self.limit:
-            save['page'] += 1
-            self.crawl('https://m.huya.com/cache.php?m=Game&do=ajaxGetGameLive&gameId=%s&page=%s&pageSize=%s' %
-                           (item[0], str(page), str(self.limit),),
-                           callback=self.index_page,
-                           save={
-                               'page': page,
-                               'cate_id': item[0],
-                               'category_id': item[1],
-                           })
-
-        for item in response.json['data']['items']:
-            self.crawl('http://api.m.panda.tv/ajax_get_liveroom_baseinfo?slaveflag=1&type=json&roomid=%s&inroom=1&__plat=android&__version=3.3.0.5930&__channel=xiaomi' %
-                       (item['id']),
-                       callback=self.detail_page,
-                       save=save)
-
     @config(priority=2)
     def detail_page(self, response):
         save = response.save
