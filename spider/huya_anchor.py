@@ -47,7 +47,7 @@ class Handler(BaseHandler):
             for item in results:
                 self.crawl('https://m.huya.com/cache.php?m=Game&do=ajaxGetGameLive&gameId=%s&page=%s&pageSize=%s' %
                            (item[0], str(page), str(self.limit),),
-                           callback=self.index_page,
+                           callback=self.detail_page,
                            save={
                                'page': page,
                                'cate_id': item[0],
@@ -61,12 +61,16 @@ class Handler(BaseHandler):
     def index_page(self, response):
         save = response.save
 
-        if len(response.json['data']['items']) >= self.limit:
+        if len(response.json['profileList']) >= self.limit:
             save['page'] += 1
-            self.crawl('http://api.m.panda.tv/ajax_get_live_list_by_cate?cate=%s&pageno=%s&pagenum=%s&sproom=1&banner=1&slider=1&__version=3.3.0.5930&__plat=android&__channel=xiaomi' %
-                       (save['short_name'], str(save['page']), str(self.limit),),
-                       callback=self.index_page,
-                       save=save)
+            self.crawl('https://m.huya.com/cache.php?m=Game&do=ajaxGetGameLive&gameId=%s&page=%s&pageSize=%s' %
+                           (item[0], str(page), str(self.limit),),
+                           callback=self.index_page,
+                           save={
+                               'page': page,
+                               'cate_id': item[0],
+                               'category_id': item[1],
+                           })
 
         for item in response.json['data']['items']:
             self.crawl('http://api.m.panda.tv/ajax_get_liveroom_baseinfo?slaveflag=1&type=json&roomid=%s&inroom=1&__plat=android&__version=3.3.0.5930&__channel=xiaomi' %
@@ -76,7 +80,26 @@ class Handler(BaseHandler):
 
     @config(priority=2)
     def detail_page(self, response):
+        save = response.save
+
+        if len(response.json['profileList']) >= self.limit:
+            save['page'] += 1
+            self.crawl('https://m.huya.com/cache.php?m=Game&do=ajaxGetGameLive&gameId=%s&page=%s&pageSize=%s' %
+                           (save['cate_id'], str(save['page']), str(self.limit),),
+                           callback=self.index_page,
+                           save=save)
+            
+        for item in response.json['profileList']:
+            self.crawl('http://api.huya.com/subscribe/getSubscribeStatus?from_key=&from_type=1&to_key=%s&to_type=2&callback=jQuery111108152252697200741_1516068669069&_=1516068669070' %
+                           (item['uid'],),
+                           callback=self.get_subscribe,
+                           save=save)
         return {
             "url": response.url,
-            "title": response.doc('title').text(),
+            "results": response.json['profileList'],
         }
+    
+    def get_subscribe(self, response):
+        save = response.save
+        print(save)
+        print(response.doc('*').text())
