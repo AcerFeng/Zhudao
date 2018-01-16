@@ -72,29 +72,25 @@ class Handler(BaseHandler):
         for item in kw['results']:
             try:
                 cursor = self.connect.cursor()
-                cursor.execute('select id from category where short_name=%s and platform_id=%s', (item['short_name'],item['platform_id']))
+                cursor.execute('select id from category where name=%s and platform_id=%s', (item['name'],item['platform_id']))
                 result = cursor.fetchone()
                 if result:
                     # 更新操作
                     sql = '''update category set 
-                        name=%s, 
+                        short_name=%s, 
                         pic=%s, 
-                        icon=%s, 
-                        small_icon=%s,
                         count=%s,
                         mb_url=%s,
                         pc_url=%s,
                         update_time=%s
-                        where short_name=%s and platform_id=%s'''
-                    cursor.execute(sql, (item['name'], 
+                        where name=%s and platform_id=%s'''
+                    cursor.execute(sql, (item['short_name'], 
                                          item['pic'], 
-                                         item['icon'], 
-                                         item['small_icon'], 
                                          item['count'], 
                                          item['mb_url'], 
                                          item['pc_url'], 
                                          datetime.now(),
-                                         item['short_name'], 
+                                         item['name'], 
                                          item['platform_id']))
                 else:
                     # 插入操作
