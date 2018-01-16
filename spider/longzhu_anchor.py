@@ -44,6 +44,7 @@ class Handler(BaseHandler):
     def __init__(self):
         self.platform_id = 5
         self.pageSize = 30
+        self.show_time_par = re.compile(r'\((\d+)\+')
         try:
             self.connect = pymysql.connect(
                 host='localhost', port=3306, user='root', passwd='123456', db='zhudao', charset='utf8mb4')
@@ -78,7 +79,7 @@ class Handler(BaseHandler):
     def index_page(self, response):
         save = response.save
         # 存储列表中的主播信息
-        self.save_list_info(response.json['data']['streamFlows'], save)
+        # self.save_list_info(response.json['data']['streamFlows'], save)
         if len(response.json['data']['streamFlows']) >= 1 and len(response.json['data']['streamFlows'][0]['streams']) >= self.pageSize:
             save['offset'] += self.pageSize
             self.crawl('https://stark.longzhu.com/api/v2/stream/search?type=7&target=%s&start-index=%s&max-results=%s&parentId=10105&version=4.6.2&device=4&packageId=1&utm_sr=chanel_10' %
@@ -100,9 +101,108 @@ class Handler(BaseHandler):
     def detail_page(self, response):
         return {
             "url": response.url,
-            "results": response.json['BaseRoomInfo'],
+            "result": response.json,
             "save": response.save,
         }
+
+    def on_result(self, result):
+        if not result:
+            return
+        self.save_data(**result)
+
+    def save_data(self, **kw):
+
+        if not kw['result']:
+            return
+
+        item = kw['result']
+        save = kw['save']
+
+        try:
+            cursor = self.connect.cursor()
+            cursor.execute('select id from anchor where user_id=%s and platform_id=%s',
+                            (item['BaseRoomInfo']['UserId'], self.platform_id))
+            result = cursor.fetchone()
+            re_show_time = self.show_time_par.search(item['Broadcast']['BeginTime'])
+            if result:
+                # 更新操作(是否创建个主播分析表（新爬虫？）：包含平台、主播id、)
+                sql = '''update anchor set
+                    name=%s,
+                    room_id=%s,
+                    room_name=%s,
+                    room_src=%s,
+                    avatar=%s,
+                    avatar_mid=%s,
+                    avatar_small=%s,
+                    fans=%s,
+                    category_id=%s,
+                    cate_id=%s,
+                    online=%s,
+                    pc_url=%s,
+                    `desc`=%s,
+                    update_time=%s,
+                    show_time=%s
+                    where id=%s'''
+                cursor.execute(sql, (item['BaseRoomInfo']['Name'],
+                                        item['BaseRoomInfo']['Id'],
+                                        item['BaseRoomInfo']['BoardCastTitle'],
+                                        item['RoomScreenshot'],
+                                        item['BaseRoomInfo']['Avatar'],
+                                        item['BaseRoomInfo']['Avatar'],
+                                        item['BaseRoomInfo']['Avatar'],
+                                        item['BaseRoomInfo']['SubscribeCount'],
+                                        save['category_id'],
+                                        save['cate_id'],
+                                        item['OnlineCount'],
+                                        'http://star.longzhu.com/' + item['BaseRoomInfo']['Domain'],
+                                        item['BaseRoomInfo']['Desc'],
+                                        datetime.now(),
+                                        datetime.fromtimestamp(float(re_show_time.group(1))/1000) if re_show_time else None,
+                                        result[0],))
+            else:
+                # 插入操作
+                sql='''insert into anchor(
+                    user_id,
+                    name,
+                    room_id,
+                    room_name,
+                    room_src,
+                    avatar,
+                    avatar_mid,
+                    avatar_small,
+                    fans,
+                    category_id,
+                    cate_id,
+                    online,
+                    platform_id,
+                    pc_url,
+                    `desc`,
+                    show_time,
+                    created_time)
+                    values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
+                cursor.execute(sql, (item['BaseRoomInfo']['UserId'],
+                                        item['BaseRoomInfo']['Name'],
+                                        item['BaseRoomInfo']['Id'],
+                                        item['BaseRoomInfo']['BoardCastTitle'],
+                                        item['RoomScreenshot'],
+                                        item['BaseRoomInfo']['Avatar'],
+                                        item['BaseRoomInfo']['Avatar'],
+                                        item['BaseRoomInfo']['Avatar'],
+                                        item['BaseRoomInfo']['SubscribeCount'],
+                                        save['category_id'],
+                                        save['cate_id'],
+                                        item['OnlineCount'],
+                                        self.platform_id,
+                                        'http://star.longzhu.com/' + item['BaseRoomInfo']['Domain'],
+                                        item['BaseRoomInfo']['Desc'],
+                                        datetime.fromtimestamp(float(re_show_time.group(1))/1000) if re_show_time else None,
+                                        datetime.now(),
+                                    ))
+            self.connect.commit()
+
+        except Exception as e:
+            self.connect.rollback()
+            raise e
 
     def save_list_info(self, results, save):
         if len(results) == 0:
@@ -110,17 +210,17 @@ class Handler(BaseHandler):
         for result in results:
             for item in result['streams']:
                 try:
-                    cursor = self.connect.cursor()
+                    cursor=self.connect.cursor()
                     cursor.execute('select id from anchor where platform_id = %s and user_id = %s;' % (
                         str(self.platform_id), item['user']['uid']))
-                    sql_result = cursor.fetchone()
+                    sql_result=cursor.fetchone()
                     if sql_result:
                         # 更新
-                        sql = '''
-                        update anchor set 
-                        name=%s, 
-                        room_id=%s, 
-                        room_name=%s, 
+                        sql='''
+                        update anchor set
+                        name=%s,
+                        room_id=%s,
+                        room_name=%s,
                         room_src=%s,
                         avatar=%s,
                         avatar_mid=%s,
@@ -129,7 +229,7 @@ class Handler(BaseHandler):
                         cate_id=%s,
                         pc_url=%s,
                         update_time=%s,
-                        show_time=%s 
+                        show_time=%s
                         where user_id=%s and platform_id=%s;
                         '''
                         cursor.execute(sql, (item['user']['name'],
@@ -150,21 +250,21 @@ class Handler(BaseHandler):
 
                     else:
                         # 插入
-                        sql = '''insert into anchor(
-                        user_id, 
-                        name, 
-                        room_id, 
-                        room_name, 
-                        room_src, 
-                        avatar, 
-                        avatar_mid, 
-                        avatar_small, 
-                        category_id, 
-                        cate_id, 
-                        platform_id, 
+                        sql='''insert into anchor(
+                        user_id,
+                        name,
+                        room_id,
+                        room_name,
+                        room_src,
+                        avatar,
+                        avatar_mid,
+                        avatar_small,
+                        category_id,
+                        cate_id,
+                        platform_id,
                         pc_url,
-                        show_time, 
-                        created_time) 
+                        show_time,
+                        created_time)
                         values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
                         cursor.execute(sql, (item['user']['uid'],
                                              item['user']['name'],
