@@ -1,0 +1,13 @@
+GET /api/v2/home/games?version=4.6.2&device=4&packageId=1&utm_sr=chanel_10 HTTP/1.1
+Accept: application/json
+User-Agent: Tga/4.6.2 Android(MI 6; Xiaomi/sagit/sagit:7.1.1/NMF26X/V9.2.3.0.NCACNEK:user/release-keys)
+x-b3-traceid: 65f117196ab2d64834983edd76bd1a18
+x-b3-spanid: 562dfbd2992d5
+x-b3-sampled: true
+Host: stark.longzhu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: pluguest=C13778534B9F27CE4E73B9D87B474603CBBD183A880117D1D714DA0BDD9A8729651956E8B7AD2A68B07712696D12C05AC5D51ADD40B97EE3
+If-Modified-Since: Tue, 16 Jan 2018 06:48:38 GMT
+
+https://stark.longzhu.com/api/v2/home/games?version=4.6.2&device=4&packageId=1&utm_sr=chanel_10

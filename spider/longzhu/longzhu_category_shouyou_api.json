@@ -1,0 +1,1485 @@
+{
+  "apiVersion": "2.0",
+  "data": {
+    "slideIcons": [
+      {
+        "id": "10022_stage11102_slider70",
+        "title": "王者荣耀",
+        "adId": "",
+        "image": "http://img2.plures.net/0a28/c7b4/b239/20dd/b9ab/8965/f325/23f1.png",
+        "type": 7,
+        "target": "10080",
+        "ad": 0,
+        "ad_type": "stark",
+        "displaytype": "0",
+        "video_url": "",
+        "game_id": ""
+      },
+      {
+        "id": "10022_stage11102_slider95",
+        "title": "荒岛特训",
+        "adId": "",
+        "image": "http://img2.plures.net/9027/1bdf/4ec3/550c/4fa5/8c18/700b/1c9f.png",
+        "type": 7,
+        "target": "10100",
+        "ad": 0,
+        "ad_type": "stark",
+        "displaytype": "0",
+        "video_url": "",
+        "game_id": ""
+      },
+      {
+        "id": "10022_stage11102_slider77",
+        "title": "吃鸡手游",
+        "adId": "",
+        "image": "http://img2.plures.net/59e2/0c51/d66e/5d2a/04a7/af52/6fe9/3efc.png",
+        "type": 7,
+        "target": "10096",
+        "ad": 0,
+        "ad_type": "stark",
+        "displaytype": "0",
+        "video_url": "",
+        "game_id": ""
+      },
+      {
+        "id": "10022_stage11102_slider73",
+        "title": "全民超神",
+        "adId": "",
+        "image": "http://img2.plures.net/9349/df3b/66a3/bf3b/4e9a/58ef/4e4a/4d30.png",
+        "type": 7,
+        "target": "10050",
+        "ad": 0,
+        "ad_type": "stark",
+        "displaytype": "0",
+        "video_url": "",
+        "game_id": ""
+      },
+      {
+        "id": "10022_stage11102_slider74",
+        "title": "终结者2",
+        "adId": "",
+        "image": "http://img2.plures.net/0986/7031/1387/1c82/5609/d096/cf6b/5a93.png",
+        "type": 7,
+        "target": "10105",
+        "ad": 0,
+        "ad_type": "stark",
+        "displaytype": "0",
+        "video_url": "",
+        "game_id": ""
+      },
+      {
+        "id": "10022_stage11102_slider75",
+        "title": "综合手游",
+        "adId": "",
+        "image": "http://img2.plures.net/05a7/9160/017f/e4d3/98fc/6a76/5068/2f5a.png",
+        "type": 7,
+        "target": "10106",
+        "ad": 0,
+        "ad_type": "stark",
+        "displaytype": "0",
+        "video_url": "",
+        "game_id": ""
+      },
+      {
+        "id": "10022_stage11102_slider88",
+        "title": "决战平安京",
+        "adId": "",
+        "image": "http://img2.plures.net/cd95/a821/8815/67a7/2091/0e0f/0bb1/db92.png",
+        "type": 7,
+        "target": "10156",
+        "ad": 0,
+        "ad_type": "stark",
+        "displaytype": "0",
+        "video_url": "",
+        "game_id": ""
+      },
+      {
+        "id": "10022_stage11102_slider110",
+        "title": "QQ飞车手游",
+        "adId": "",
+        "image": "http://img2.plures.net/9390/505a/f441/7b06/c349/a364/d1a8/3ff8.png",
+        "type": 7,
+        "target": "10154",
+        "ad": 0,
+        "ad_type": "stark",
+        "displaytype": "0",
+        "video_url": "",
+        "game_id": ""
+      }
+    ],
+    "streamItems": [
+      {
+        "id": "10022_tonglan04_stage187",
+        "image": "http://img2.plures.net/0a28/c7b4/b239/20dd/b9ab/8965/f325/23f1.png",
+        "type": 7,
+        "target": "10080",
+        "displaytype": "1",
+        "name": "王者荣耀",
+        "viewers": 0,
+        "rooms": 0,
+        "streams": [
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/v180027"
+            },
+            "cover": "http://img2.plures.net/85e5/5a4a/2dc2/2cf9/cd64/19bc/5c16/9b2c.jpg",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2094976",
+              "domain": "v180027",
+              "title": "愿你如初见",
+              "broadcast_begin": "1516085355",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 194778
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "103",
+              "name": "王者荣耀"
+            },
+            "user": {
+              "uid": "68587198",
+              "name": "我是左妖啊",
+              "avatar": "http://pic.plures.net/users/avatar/068/587/198/68587198/bbee6f42c1e950102678b7566371a8c6.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/zhangege"
+            },
+            "cover": "http://img2.plures.net/feb1/d87b/bef8/b773/0308/5b67/b029/fbdf.png",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2113751",
+              "domain": "zhangege",
+              "title": "教学模式upupup",
+              "broadcast_begin": "1516077903",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "18",
+              "stream_id": null,
+              "viewers": 174888
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "103",
+              "name": "王者荣耀"
+            },
+            "user": {
+              "uid": "74057221",
+              "name": "金牌讲师战哥哥",
+              "avatar": "http://pic.plures.net/03fd/b395/ae65/6af2/e466/2467/dd96/82cc.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/147369"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/943612/e1d6/2d54/a07b/cada/3e1a/ca37/ed7d/928d_1516087489.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "943612",
+              "domain": "147369",
+              "title": "你好我叫李奔",
+              "broadcast_begin": "1516073417",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "8",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 146593
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "103",
+              "name": "王者荣耀"
+            },
+            "user": {
+              "uid": "45773287",
+              "name": "Ty表哥-",
+              "avatar": "http://img2.plures.net/users/avatar/045/773/287/45773287/0ff9622402bb4406e5ca76bfce4bef18.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/v180030"
+            },
+            "cover": "http://img2.plures.net/e9c4/fe6e/a8e1/cd5d/198c/2e63/d45c/457e.jpg",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "601453",
+              "domain": "v180030",
+              "title": "程咬金过本命年",
+              "broadcast_begin": "1516078375",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "9",
+              "stream_id": null,
+              "viewers": 146083
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "103",
+              "name": "王者荣耀"
+            },
+            "user": {
+              "uid": "41429456",
+              "name": "保护我方Rita",
+              "avatar": "http://pic.plures.net/20f1/f8ce/40ee/aea1/c5e1/6203/3e8f/fc28.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "10022_tonglan04_stage208",
+        "image": "http://img2.plures.net/0480/c78c/1910/c0ec/50b4/9d3b/5f70/14a7.png",
+        "type": 7,
+        "target": "10095",
+        "displaytype": "1",
+        "name": "球球大作战",
+        "viewers": 0,
+        "rooms": 0,
+        "streams": [
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/170426"
+            },
+            "cover": "http://qnstatic.plures.net/snapshots/z1.longzhu.0e51373c39944c189506e90faeae7b0e/1426704_1516087505.jpg?imageView2/1/w/320/h/180/q/75",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "1426704",
+              "domain": "170426",
+              "title": "199直接上车，守护收徒",
+              "broadcast_begin": "1516076890",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "10",
+              "stream_id": null,
+              "viewers": 52993
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "206",
+              "name": "球球大作战"
+            },
+            "user": {
+              "uid": "51764634",
+              "name": "一口一个酷๕",
+              "avatar": "http://pic.plures.net/users/avatar/051/764/634/51764634/831f7a3507482936c76d62bea4758c51.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/170411"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/1440042/e080/ff2d/a60f/d744/5b16/cc10/b608/6e34_1516087496.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "1440042",
+              "domain": "170411",
+              "title": "出售魔灵欧姆冲榜号",
+              "broadcast_begin": "1516075586",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 24244
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "206",
+              "name": "球球大作战"
+            },
+            "user": {
+              "uid": "51020884",
+              "name": "iseven",
+              "avatar": "http://q.qlogo.cn/qqapp/100360418/44DEB97EBF5A7BB226E79D2811DE5B48/40"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/170311"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/1413575/7b76/b73e/5bd8/2616/f4c3/fc52/4479/bfcf_1516087463.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "1413575",
+              "domain": "170311",
+              "title": "wuwu",
+              "broadcast_begin": "1516084493",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 3115
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "206",
+              "name": "球球大作战"
+            },
+            "user": {
+              "uid": "51281064",
+              "name": "狗凯伦",
+              "avatar": "http://img2.plures.net/users/avatar/051/281/064/51281064/34defbf117b6acfbd6e48b3a6fc5fb1a.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2558353"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2253188/f02f/2fc3/9205/0dff/f2e7/d9c6/ea6d/c337_1516086034.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2253188",
+              "domain": "2558353",
+              "title": "关注一起玩带上超神",
+              "broadcast_begin": "1516078957",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 47
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "206",
+              "name": "球球大作战"
+            },
+            "user": {
+              "uid": "131943390",
+              "name": "球球你的航哥哥",
+              "avatar": "http://r.plures.net/no-avatar.jpg"
+            },
+            "location": {
+              "latitude": "36.052560",
+              "longitude": "114.944500",
+              "distance": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "10022_tonglan04_stage209",
+        "image": "http://img2.plures.net/7f2a/a3c6/0673/8a63/ea2f/e42b/7e85/5505.png",
+        "type": 7,
+        "target": "10100",
+        "displaytype": "1",
+        "name": "CF手游",
+        "viewers": 0,
+        "rooms": 0,
+        "streams": [
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/c170914"
+            },
+            "cover": "http://img2.plures.net/5f8b/1451/ded1/1800/803f/45ac/de70/3c02.jpg",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2054785",
+              "domain": "c170914",
+              "title": "玩会",
+              "broadcast_begin": "1516084235",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 38021
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "120",
+              "name": "穿越火线手游"
+            },
+            "user": {
+              "uid": "5021061",
+              "name": "无影大帝俊俊",
+              "avatar": "http://pic.plures.net/users/avatar/005/021/061/5021061/6fbe42c8d678fd74a0965ca35c464abf.png"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2013294"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/1695860/3c2d/746c/6e15/950c/49ce/e887/0f41/11ca_1516087487.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "1695860",
+              "domain": "2013294",
+              "title": "骚出新境界，浪出新高度",
+              "broadcast_begin": "1516077537",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 29341
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "120",
+              "name": "穿越火线手游"
+            },
+            "user": {
+              "uid": "56615307",
+              "name": "社会你黑哥哎",
+              "avatar": "http://pic.plures.net/users/avatar/056/615/307/56615307/fbc94561445db4a50ae3fbbd031faffa.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/102404"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/154275/1a33/2141/0ecb/fcf1/8f06/999e/b98e/aecf_1516087450.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "154275",
+              "domain": "102404",
+              "title": "晚上8点直播荒岛特训",
+              "broadcast_begin": "1516081803",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "8",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 149533
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "7",
+              "name": "穿越火线"
+            },
+            "user": {
+              "uid": "65421697",
+              "name": "绝迹",
+              "avatar": "http://pic.plures.net/users/avatar/065/421/697/65421697/22cda481a037dedb985a7e70f5d494a1.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/c170233"
+            },
+            "cover": "http://qnstatic.plures.net/snapshots/z1.longzhu.2c5c04a20d044989ae701a2e1a4357e7/2098695_1516087501.jpg?imageView2/1/w/320/h/180/q/75",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2098695",
+              "domain": "c170233",
+              "title": "有没有大佬卡一波房管！",
+              "broadcast_begin": "1516079050",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "10",
+              "stream_id": null,
+              "viewers": 29858
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "120",
+              "name": "穿越火线手游"
+            },
+            "user": {
+              "uid": "66255364",
+              "name": "八戒哟????",
+              "avatar": "http://pic.plures.net/users/avatar/066/255/364/66255364/5dbd5080f297cfe80830c935ff0fdbaa.jpg"
+            },
+            "location": {
+              "latitude": "32.905020",
+              "longitude": "117.436400",
+              "distance": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "10022_tonglan04_stage210",
+        "image": "http://img2.plures.net/59e2/0c51/d66e/5d2a/04a7/af52/6fe9/3efc.png",
+        "type": 7,
+        "target": "10096",
+        "displaytype": "1",
+        "name": "吃鸡手游",
+        "viewers": 0,
+        "rooms": 0,
+        "streams": [
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/102680"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/352876/949d/395a/6928/a843/23a6/feaa/9788/7ba0_1516087498.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "352876",
+              "domain": "102680",
+              "title": "我叫b数  请你们心里有点我qaq~",
+              "broadcast_begin": "1516066281",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "9",
+              "stream_id": null,
+              "viewers": 36976
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "289",
+              "name": "荒野行动"
+            },
+            "user": {
+              "uid": "4170342",
+              "name": "❀情久.坏姐姐",
+              "avatar": "http://pic.plures.net/users/avatar/004/170/342/4170342/9d1902e94548a48330cb88e7febf8e81.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2487913"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2153886/0cb0/1483/d159/d4c1/cb65/5a02/8e09/7438_1516087458.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2153886",
+              "domain": "2487913",
+              "title": "长期招收队员。",
+              "broadcast_begin": "1516067286",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 36577
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "289",
+              "name": "荒野行动"
+            },
+            "user": {
+              "uid": "51373421",
+              "name": "龙珠tv韩晓宇",
+              "avatar": "http://pic.plures.net/users/avatar/051/373/421/51373421/c538ff5d1b46fb2034d15fcabce2d190.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2529948"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2210470/330c/6fbe/7a9c/0365/f939/9570/9ec3/e9dc_1516087508.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2210470",
+              "domain": "2529948",
+              "title": "不管怎样我都是最强",
+              "broadcast_begin": "1516036555",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 30218
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "289",
+              "name": "荒野行动"
+            },
+            "user": {
+              "uid": "123548666",
+              "name": "龙珠Tv.大嘴",
+              "avatar": "http://pic.plures.net/users/avatar/123/548/666/123548666/73151f0bf3771fc145ea4d28629278aa.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/z197318"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2196919/821c/c1e6/6a0e/1a49/eb4a/705e/e912/2e78_1516087468.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2196919",
+              "domain": "z197318",
+              "title": "【学长】学长杨傲陪你们开心每一天清晰直播",
+              "broadcast_begin": "1516081089",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 26526
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "289",
+              "name": "荒野行动"
+            },
+            "user": {
+              "uid": "36577423",
+              "name": "超级英雄.沈秋辞～",
+              "avatar": "http://pic.plures.net/users/avatar/036/577/423/36577423/9b9f6b692cf97c32af5551f863429d6e.png"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "10022_tonglan04_stage63",
+        "image": "http://img2.plures.net/a8dd/bb57/7782/425c/46c8/a951/7670/b2d1.jpg",
+        "type": 7,
+        "target": "10036",
+        "displaytype": "1",
+        "name": "狼人杀游戏",
+        "viewers": 0,
+        "rooms": 0,
+        "streams": [
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/681904"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/425271/223e/be29/e2c5/5865/112f/909b/4172/004c_1514949724.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "425271",
+              "domain": "681904",
+              "title": "今天来聊个5毛钱的",
+              "broadcast_begin": "1514949700",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 1
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "265",
+              "name": "狼人杀"
+            },
+            "user": {
+              "uid": "8417947",
+              "name": "高冷的莫宝宝",
+              "avatar": "http://r.plures.net/no-avatar.jpg"
+            },
+            "location": {
+              "latitude": "37.467650",
+              "longitude": "121.204600",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2552308"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2244130/99ab/232d/640e/11f7/b4f0/e6e7/ea62/192f_1515493698.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2244130",
+              "domain": "2552308",
+              "title": "一起来聊小姐姐",
+              "broadcast_begin": "1515493651",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 1
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "265",
+              "name": "狼人杀"
+            },
+            "user": {
+              "uid": "130855211",
+              "name": "这货不是特仑苏",
+              "avatar": "http://pic.plures.net/users/avatar/130/855/211/130855211/695c0d06ffcd5abd207873f8b50f8c58.png"
+            },
+            "location": {
+              "latitude": "31.543370",
+              "longitude": "120.296100",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2493875"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2160295/cfdd/497f/0466/759d/9c98/30c7/b512/55a4_1514963679.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2160295",
+              "domain": "2493875",
+              "title": "炸房喊麦",
+              "broadcast_begin": "1514963327",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 2
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "265",
+              "name": "狼人杀"
+            },
+            "user": {
+              "uid": "123890375",
+              "name": "龙珠主播姬千关",
+              "avatar": "http://wx.qlogo.cn/mmopen/vi_32/YS3uCquJC0ISzibFaXWxKQ6pDWgWha24dwZZTjUsGO86Tg1QPiatU53zXUWcEV6ibLOpbp2OgkXDeGvVUDfC59X6Q/64"
+            },
+            "location": {
+              "latitude": "35.073310",
+              "longitude": "113.412800",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2556744"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2250715/107b/2fef/d5e9/e18a/c59b/6890/930b/5f2f_1515938996.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2250715",
+              "domain": "2556744",
+              "title": "喜欢我的请给我点赞",
+              "broadcast_begin": "1515935557",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 4
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "265",
+              "name": "狼人杀"
+            },
+            "user": {
+              "uid": "131429037",
+              "name": "阿狸_435",
+              "avatar": "http://pic.plures.net/users/avatar/131/429/037/131429037/87805e9f0f904c1361276333b271cb6c.png"
+            },
+            "location": {
+              "latitude": "27.840190",
+              "longitude": "105.054200",
+              "distance": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "10022_tonglan04_stage265",
+        "image": "http://img2.plures.net/05a7/9160/017f/e4d3/98fc/6a76/5068/2f5a.png",
+        "type": 7,
+        "target": "10106",
+        "displaytype": "1",
+        "name": "综合手游",
+        "viewers": 0,
+        "rooms": 0,
+        "streams": [
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2428027"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2100045/645b/eccd/44a0/61c6/1c3b/ef9d/c090/e3fd_1516087477.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2100045",
+              "domain": "2428027",
+              "title": "日常贡献",
+              "broadcast_begin": "1516065232",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 8686
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "166",
+              "name": "综合手游"
+            },
+            "user": {
+              "uid": "71411111",
+              "name": "吕 敏",
+              "avatar": "http://q.qlogo.cn/qqapp/100360418/E1C2B6146480AB4B661B7036C2F8406D/40"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/q170037"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/1488328/944e/197d/d671/4d5a/8a31/7d38/8f17/8407_1516087480.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "1488328",
+              "domain": "q170037",
+              "title": "刷一会哦",
+              "broadcast_begin": "1516079425",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 8420
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "166",
+              "name": "综合手游"
+            },
+            "user": {
+              "uid": "47493721",
+              "name": "冷静",
+              "avatar": "http://img2.plures.net/users/avatar/047/493/721/47493721/7faa04d85dbfc33c0e3d7f2bc31da4fa.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2503577"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2171505/e16b/1990/b9f1/f058/cb4c/c307/fbad/93ec_1516075002.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2171505",
+              "domain": "2503577",
+              "title": "送VIP16满v钻石元宝",
+              "broadcast_begin": "1516071117",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 2512
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "166",
+              "name": "综合手游"
+            },
+            "user": {
+              "uid": "125102836",
+              "name": "琅嬛丶火火",
+              "avatar": "http://pic.plures.net/users/avatar/125/102/836/125102836/ff690d5d0f426a6fda242988fc5120b3.png"
+            },
+            "location": {
+              "latitude": "38.694410",
+              "longitude": "116.645500",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/w117127"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/285552/87ad/de03/33eb/eccc/fec2/cc0f/a6ea/10b1_1516087466.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "285552",
+              "domain": "w117127",
+              "title": "全民飞机大战 禹",
+              "broadcast_begin": "1516081328",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 1,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 341
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "166",
+              "name": "综合手游"
+            },
+            "user": {
+              "uid": "19834894",
+              "name": "༺禹༻",
+              "avatar": "http://img2.plures.net/users/avatar/019/834/894/19834894/1162ff1a9ce321cd7cbd7258c8bd8d65.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "10022_tonglan04_stage264",
+        "image": "http://img2.plures.net/7db3/1a79/ecaf/7baa/b1b9/dd17/6fa8/1c75.png",
+        "type": 7,
+        "target": "10107",
+        "displaytype": "1",
+        "name": "英魂之刃口袋版",
+        "viewers": 0,
+        "rooms": 0,
+        "streams": [
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/g126978"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/999414/ca27/6bb9/cbe8/c42f/f79a/0533/1d13/e2cb_1516087511.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "999414",
+              "domain": "g126978",
+              "title": "骚沫来了",
+              "broadcast_begin": "1516082656",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 835
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "246",
+              "name": "英魂之刃口袋版"
+            },
+            "user": {
+              "uid": "38923289",
+              "name": "Gs丨沫小殇",
+              "avatar": "http://q.qlogo.cn/qqapp/100360418/ABE64E8CED3E8088D16C3475FBF2587F/100"
+            },
+            "location": {
+              "latitude": "41.611340",
+              "longitude": "120.977200",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/126970"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2080785/615c/a95a/f238/8aab/52a2/815c/4242/2f3a_1516087462.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2080785",
+              "domain": "126970",
+              "title": "就喜欢你看不惯我又干不掉我的样子",
+              "broadcast_begin": "1516078966",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 18
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "246",
+              "name": "英魂之刃口袋版"
+            },
+            "user": {
+              "uid": "66723513",
+              "name": "Gs、喵喵",
+              "avatar": "http://img2.plures.net/users/avatar/066/723/513/66723513/334b818f0c2dda8053f3d1c2132d857e.png"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2550795"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2242020/a792/cde9/e02b/12e6/203d/f608/5d9a/28c1_1516087451.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2242020",
+              "domain": "2550795",
+              "title": "嘤嘤，今天渣渣女主播好像感冒了????????",
+              "broadcast_begin": "1516086909",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 2
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "246",
+              "name": "英魂之刃口袋版"
+            },
+            "user": {
+              "uid": "129242693",
+              "name": "辉哥哥家的许小七",
+              "avatar": "http://pic.plures.net/users/avatar/129/242/693/129242693/0d3cf1f8469068967c8d785172b68e6e.png"
+            },
+            "location": {
+              "latitude": "30.291070",
+              "longitude": "109.499800",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2526078"
+            },
+            "cover": "http://qnstatic.plures.net/snapshots/z1.longzhu.a2124816faa94db2b565c9b889042790/2205657_1516087507.jpg?imageView2/1/w/320/h/180/q/75",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2205657",
+              "domain": "2526078",
+              "title": "考完试的我又回来了",
+              "broadcast_begin": "1516086381",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "10",
+              "stream_id": null,
+              "viewers": 1
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "246",
+              "name": "英魂之刃口袋版"
+            },
+            "user": {
+              "uid": "24249555",
+              "name": "柔晨",
+              "avatar": "http://pic.plures.net/users/avatar/024/249/555/24249555/94373ebd72d3e7400e8af4eabfa6b187.jpg"
+            },
+            "location": {
+              "latitude": "30.782920",
+              "longitude": "103.923400",
+              "distance": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

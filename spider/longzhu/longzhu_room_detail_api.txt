@@ -1,0 +1,15 @@
+GET /room/RoomAppStatusV2?roomId=2251437&version=4.6.2&device=4&packageId=1&utm_sr=chanel_10 HTTP/1.1
+Cache-Control: no-cache
+Accept: application/json
+User-Agent: Tga/4.6.2 Android(MI 6; Xiaomi/sagit/sagit:7.1.1/NMF26X/V9.2.3.0.NCACNEK:user/release-keys)
+x-b3-traceid: cbcd984bf1623b2d22d15d6413d2f406
+x-b3-spanid: 562df33d46ce2
+x-b3-sampled: true
+Referer: http://star.longzhu.com/2251437
+P3P: CP=CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR
+Host: roomapicdn.longzhu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+http://roomapicdn.longzhu.com/room/RoomAppStatusV2?roomId=2251437&version=4.6.2&device=4&packageId=1&utm_sr=chanel_10
+

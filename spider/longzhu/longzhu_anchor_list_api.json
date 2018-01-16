@@ -1,0 +1,894 @@
+{
+  "apiVersion": "2.0",
+  "data": {
+    "streamFlows": [
+      {
+        "id": "10105_stage14906_streamFlow",
+        "image": "",
+        "type": 7,
+        "target": "0",
+        "displaytype": "1",
+        "name": "",
+        "viewers": 0,
+        "rooms": 0,
+        "streams": [
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/v124323"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2177004/cfb2/9c71/5569/e080/7f67/bdfd/00ac/cb57_1516086394.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2177004",
+              "domain": "v124323",
+              "title": "一天一把鸡就饱",
+              "broadcast_begin": "1516084131",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 36312
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "70039124",
+              "name": "《十年》小阿婷",
+              "avatar": "http://pic.plures.net/users/avatar/070/039/124/70039124/cb079e3e7d4dba3530a38a66de2ccca8.png"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2520653"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2197421/d06a/cbfb/c022/e2b3/ffd2/7e4c/5599/fab5_1516086434.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2197421",
+              "domain": "2520653",
+              "title": "我想要带你去网吧里偷耳机",
+              "broadcast_begin": "1516084431",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "8",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 13776
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "50810573",
+              "name": "国服第六皮",
+              "avatar": "http://r.plures.net/no-avatar.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2557913"
+            },
+            "cover": "http://qnstatic.plures.net/snapshots/z1.longzhu.b82399d3ed984cf7bc2efb21de201c4a/2252427_1516086483.jpg?imageView2/1/w/320/h/180/q/75",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2252427",
+              "domain": "2557913",
+              "title": "萌新妹子的一百种死法",
+              "broadcast_begin": "1516084149",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "10",
+              "stream_id": null,
+              "viewers": 11680
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "131887606",
+              "name": "一只大蘑菇呀",
+              "avatar": "http://pic.plures.net/users/avatar/131/887/606/131887606/96cf5b90ef79bbe5fd97f162a2a84058.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2554964"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2247623/bf0e/8d44/c22d/f388/0f27/70b4/1159/3415_1516086438.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2247623",
+              "domain": "2554964",
+              "title": "老板粉丝给我来碗，，，",
+              "broadcast_begin": "1516086024",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 12167
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "131545575",
+              "name": "子轩KISS",
+              "avatar": "http://pic.plures.net/users/avatar/131/545/575/131545575/1cec32ac2cc1e38e757745f8d6e489d4.png"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/f107104"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/1601122/d822/7eef/9d50/052c/f41d/4fb4/8862/9ef2_1516086432.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "1601122",
+              "domain": "f107104",
+              "title": "每天都在想怎么送人头",
+              "broadcast_begin": "1516080310",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "8",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 8969
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "22613952",
+              "name": "小妖丶 苏柔",
+              "avatar": "http://pic.plures.net/f704/88f4/403a/7c39/72fb/9836/1156/8b14.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2505367"
+            },
+            "cover": "http://qnstatic.plures.net/snapshots/z1.longzhu.08a0a5d1f04d42b2b0050792416c2d3d/2173689_1516086480.jpg?imageView2/1/w/320/h/180/q/75",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2173689",
+              "domain": "2505367",
+              "title": "任意199任意段位一个段",
+              "broadcast_begin": "1516083280",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "10",
+              "stream_id": null,
+              "viewers": 7667
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "20109005",
+              "name": "南风o",
+              "avatar": "http://pic.plures.net/users/avatar/020/109/005/20109005/a225f3ed5fc693b4991dca6776afb0a3.jpg"
+            },
+            "location": {
+              "latitude": "22.778580",
+              "longitude": "113.789000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2545022"
+            },
+            "cover": "http://qnstatic.plures.net/snapshots/z1.longzhu.44f2156eb9ac492a8f4e935e9240b28b/2233079_1516086483.jpg?imageView2/1/w/320/h/180/q/75",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2233079",
+              "domain": "2545022",
+              "title": "国服最强Ak，人帅枪飘",
+              "broadcast_begin": "1516073498",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "10",
+              "stream_id": null,
+              "viewers": 3060
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "58159847",
+              "name": "利捷_平平",
+              "avatar": "http://pic.plures.net/users/avatar/058/159/847/58159847/46b892bde8bfa7cdee5d059ce8bd4028.jpg"
+            },
+            "location": {
+              "latitude": "40.631790",
+              "longitude": "122.219100",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/f106703"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2121923/2d74/e1ac/76b2/ece8/a36c/1b8a/57dd/e82d_1516086451.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2121923",
+              "domain": "f106703",
+              "title": "铁头：终结者2日常吃鸡",
+              "broadcast_begin": "1516083599",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 2816
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "120130375",
+              "name": "LT传媒 铁头",
+              "avatar": "http://pic.plures.net/users/avatar/120/130/375/120130375/a89bf7c21b3e2c03be74fa63dda9afee.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/948932"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/659161/9b19/a89f/711c/00f9/2c89/7cbc/c348/3827_1516086423.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "659161",
+              "domain": "948932",
+              "title": "感觉身体被掏空",
+              "broadcast_begin": "1516080931",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 2879
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "39198018",
+              "name": "利捷哒哒",
+              "avatar": "http://q.qlogo.cn/qqapp/100360418/175DBB6098DEABFD145717D217FD21C1/100"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2526030"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2205612/961a/e8f9/b739/b789/0899/597e/7566/5eae_1516086441.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2205612",
+              "domain": "2526030",
+              "title": "看来射击是真的被改变了",
+              "broadcast_begin": "1516076536",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "8",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 829
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "7009271",
+              "name": "洛洛。",
+              "avatar": "http://q.qlogo.cn/qqapp/100360418/7ED033F9D748BD40C9AE2F77AEE4BF5F/100"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2532478"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2214192/bb90/f427/e89b/dfed/ea18/151e/f4bd/1b83_1516086393.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2214192",
+              "domain": "2532478",
+              "title": "飞车，吃鸡，一晃一下午",
+              "broadcast_begin": "1516084718",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "128",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 744
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "125846343",
+              "name": "我佷正经",
+              "avatar": "http://r.plures.net/no-avatar.jpg"
+            },
+            "location": {
+              "latitude": "31.290150",
+              "longitude": "120.512600",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2531570"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2212857/ba68/744a/3060/3529/2f61/a0d1/409b/33de_1516086441.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2212857",
+              "domain": "2531570",
+              "title": "吃不着鸡，帮忙点点关注",
+              "broadcast_begin": "1516085133",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 16
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "128418538",
+              "name": "唐豆豆啊",
+              "avatar": "http://pic.plures.net/users/avatar/128/418/538/128418538/7fd52810e95854d86b9e169047e42921.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/884726"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/602601/1423/90cb/0c55/c989/e920/b18a/452e/aa55_1516086444.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "602601",
+              "domain": "884726",
+              "title": "萌新上路，组队走起！！！",
+              "broadcast_begin": "1516082649",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 2
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "19938084",
+              "name": "小妖丶老乔",
+              "avatar": "http://pic.plures.net/users/avatar/019/938/084/19938084/50902339f3101868dbff2ecb64f85e98.png"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2553187"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2245368/8c13/f300/a6b0/6036/27f8/bf59/291f/fc2a_1516086401.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2245368",
+              "domain": "2553187",
+              "title": "我有两把枪，一把叫射，一把叫~啊！",
+              "broadcast_begin": "1516083383",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 2
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "131216511",
+              "name": "侯赛闻olio",
+              "avatar": "http://r.plures.net/no-avatar.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/224469"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/37111/2b2d/0ef7/5147/7669/01a4/348e/babf/18ed_1516086404.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "37111",
+              "domain": "224469",
+              "title": "没有课随意播，求关注新人",
+              "broadcast_begin": "1516086321",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 4
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "6621208",
+              "name": "逗比馬贾丶",
+              "avatar": "http://q.qlogo.cn/qqapp/100360418/A31348EEC15963153772FD205A97673F/100"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2409869"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2083922/e312/8cc3/3c12/13e2/bd5b/ba00/e82e/a981_1516086418.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2083922",
+              "domain": "2409869",
+              "title": "一言不合就直播",
+              "broadcast_begin": "1516076662",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "18",
+              "stream_id": null,
+              "viewers": 1
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "54926776",
+              "name": "AK聚宝盆",
+              "avatar": "http://r.plures.net/no-avatar.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/126642"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/1476915/62dd/d327/402a/a980/18e5/c814/9a67/8fab_1516086434.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "1476915",
+              "domain": "126642",
+              "title": "为毛每局都TM有挂",
+              "broadcast_begin": "1516083352",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 1
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "33932295",
+              "name": "MK-沫離殇",
+              "avatar": "http://q.qlogo.cn/qqapp/100360418/5CCAF770B6D421D6F5B3259BD26CB11C/100"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2509025"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2177709/d503/8db9/9121/c455/2c81/d2fa/32f2/4944_1515934885.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2177709",
+              "domain": "2509025",
+              "title": "瞎玩123456",
+              "broadcast_begin": "1515926229",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 1
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "125627101",
+              "name": "故梦.〖游戏直播】",
+              "avatar": "http://pic.plures.net/users/avatar/125/627/101/125627101/97fa60fa77f6d75b6044507f29050f51.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          },
+          {
+            "adverts": {
+              "ad": 0,
+              "ad_type": "stark",
+              "video_url": "",
+              "adId": "",
+              "ad_title": "",
+              "ad_image": "",
+              "ad_target": "http://star.longzhu.com/2505742"
+            },
+            "cover": "http://img2.plures.net/live/screenshots/2174188/4b80/b596/48f3/982f/e70e/5ffc/f8d8/6c15_1514991511.jpg?imageView2/1/w/320/h/180",
+            "event": {
+              "image": "",
+              "name": ""
+            },
+            "room": {
+              "id": "2174188",
+              "domain": "2505742",
+              "title": "吃鸡吃鸡",
+              "broadcast_begin": "1514958735",
+              "broadcast_status": "1",
+              "lockable": false,
+              "fee": 0,
+              "live_source": "16",
+              "stream_types": "12",
+              "stream_id": null,
+              "viewers": 2
+            },
+            "tag": {
+              "tag": ""
+            },
+            "game": {
+              "id": "290",
+              "name": "终结者2：审判日"
+            },
+            "user": {
+              "uid": "2069110",
+              "name": "阿姨我喜欢你闺女_2",
+              "avatar": "http://r.plures.net/no-avatar.jpg"
+            },
+            "location": {
+              "latitude": "0.000000",
+              "longitude": "0.000000",
+              "distance": ""
+            }
+          }
+        ]
+      }
+    ],
+    "banners": null
+  }
+}
