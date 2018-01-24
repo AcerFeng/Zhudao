@@ -4,7 +4,8 @@
 # Project: quanmin_category
 
 from pyspider.libs.base_handler import *
-
+import pymysql
+from datetime import datetime
 
 class Handler(BaseHandler):
     headers = {
