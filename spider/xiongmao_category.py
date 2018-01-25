@@ -15,6 +15,7 @@ class Handler(BaseHandler):
     }
     
     def __init__(self):
+        self.platform_id = 3
         try:
             self.connect = pymysql.connect(host='localhost', port=3306, user='root', passwd='123456', db='zhudao', charset='utf8mb4')
             
@@ -25,7 +26,6 @@ class Handler(BaseHandler):
     @every(minutes=24 * 60)
     def on_start(self):
         self.crawl('https://api.m.panda.tv/index.php?method=category.list&type=game', callback=self.detail_page)
-        time.sleep(3)
         self.crawl('https://api.m.panda.tv/index.php?method=category.list&type=yl&__plat=ios', callback=self.detail_page)
 
     @config(age=10 * 24 * 60 * 60)
@@ -35,27 +35,10 @@ class Handler(BaseHandler):
 
     @config(priority=2)
     def detail_page(self, response):
-        results = []
-        for item in response.json['data']:
-            extra_fan = json.loads(item['extra'])
-            result = {
-                'name': item['cname'],
-                'short_name': item['ename'],
-                'pic': item['img'],
-                'icon': extra_fan['icon'],
-                'small_icon': extra_fan['icon_cate'],
-                'count': 0,
-                'mb_url': 'https://m.panda.tv/type.html?cate=' + item['ename'],
-                'pc_url': 'https://www.panda.tv/cate/' + item['ename'],
-                'platform_id': 3,
-                
-            }
-            results.append(result)
-        
         return {
             "url": response.url,
             "title": response.doc('title').text(),
-            "results": results
+            "results": response.json['data']
         }
 
     def on_result(self,result):
@@ -69,9 +52,10 @@ class Handler(BaseHandler):
             return
 
         for item in kw['results']:
+            extra_fan = json.loads(item['extra'])
             try:
                 cursor = self.connect.cursor()
-                cursor.execute('select id from category where short_name=%s and platform_id=%s', (item['short_name'],item['platform_id']))
+                cursor.execute('select id from category where short_name=%s and platform_id=%s', (item['ename'], self.platform_id))
                 result = cursor.fetchone()
                 if result:
                     # 更新操作
@@ -80,34 +64,31 @@ class Handler(BaseHandler):
                         pic=%s, 
                         icon=%s, 
                         small_icon=%s,
-                        count=%s,
                         mb_url=%s,
                         pc_url=%s,
                         update_time=%s
                         where short_name=%s and platform_id=%s'''
-                    cursor.execute(sql, (item['name'], 
-                                         item['pic'], 
-                                         item['icon'], 
-                                         item['small_icon'], 
-                                         item['count'], 
-                                         item['mb_url'], 
-                                         item['pc_url'], 
+                    cursor.execute(sql, (item['cname'], 
+                                         item['img'], 
+                                         extra_fan['icon'], 
+                                         extra_fan['icon_cate'], 
+                                         'https://m.panda.tv/type.html?cate=' + item['ename'], 
+                                         'https://www.panda.tv/cate/' + item['ename'], 
                                          datetime.now(),
-                                         item['short_name'], 
-                                         item['platform_id']))
+                                         item['ename'], 
+                                         self.platform_id))
                 else:
                     # 插入操作
-                    sql = '''insert into category(name, pic, icon, small_icon, count, mb_url, pc_url, short_name, platform_id, created_time) 
-                    values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
-                    cursor.execute(sql, (item['name'], 
-                                         item['pic'], 
-                                         item['icon'], 
-                                         item['small_icon'], 
-                                         item['count'],
-                                         item['mb_url'], 
-                                         item['pc_url'], 
-                                         item['short_name'], 
-                                         item['platform_id'],
+                    sql = '''insert into category(name, pic, icon, small_icon, mb_url, pc_url, short_name, platform_id, created_time) 
+                    values (%s, %s, %s, %s, %s, %s, %s, %s, %s)'''
+                    cursor.execute(sql, (item['cname'], 
+                                         item['img'], 
+                                         extra_fan['icon'], 
+                                         extra_fan['icon_cate'], 
+                                         'https://m.panda.tv/type.html?cate=' + item['ename'], 
+                                         'https://www.panda.tv/cate/' + item['ename'], 
+                                         item['ename'], 
+                                         self.platform_id,
                                         datetime.now(),))
                 self.connect.commit()
 
