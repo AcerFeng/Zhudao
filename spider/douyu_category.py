@@ -13,6 +13,7 @@ class Handler(BaseHandler):
     }
     
     def __init__(self):
+        self.platform_id = 1
         try:
             self.connect = pymysql.connect(host='localhost', port=3306, user='root', passwd='123456', db='zhudao', charset='utf8mb4')
             
@@ -31,26 +32,10 @@ class Handler(BaseHandler):
 
     @config(priority=2)
     def detail_page(self, response):
-        results = []
-        for item in response.json['cate2Info']:
-            result = {
-                'name': item['cate2Name'],
-                'short_name': item['shortName'],
-                'pic': item['pic'],
-                'icon': item['icon'],
-                'small_icon': item['smallIcon'],
-                'count': item['count'],
-                'mb_url': 'https://m.douyu.com/roomlists/' + item['shortName'],
-                'pc_url': 'https://www.douyu.com/directory/game/' + item['shortName'],
-                'platform_id': 1,
-                'cate_id': item['cate2Id'], 
-            }
-            results.append(result)
-        
         return {
             "url": response.url,
             "title": response.doc('title').text(),
-            "results": results
+            "results": response.json['cate2Info']
         }
 
     def on_result(self,result):
@@ -66,7 +51,7 @@ class Handler(BaseHandler):
         for item in kw['results']:
             try:
                 cursor = self.connect.cursor()
-                cursor.execute('select id from category where short_name=%s and platform_id=%s', (item['short_name'],item['platform_id']))
+                cursor.execute('select id from category where short_name=%s and platform_id=%s', (item['shortName'], self.platform_id))
                 result = cursor.fetchone()
                 if result:
                     # 更新操作
@@ -81,31 +66,31 @@ class Handler(BaseHandler):
                         cate_id=%s,
                         update_time=%s
                         where short_name=%s and platform_id=%s'''
-                    cursor.execute(sql, (item['name'], 
+                    cursor.execute(sql, (item['cate2Name'], 
                                          item['pic'], 
                                          item['icon'], 
-                                         item['small_icon'], 
+                                         item['smallIcon'], 
                                          item['count'], 
-                                         item['mb_url'], 
-                                         item['pc_url'],  
-                                         item['cate_id'], 
+                                         'https://m.douyu.com/roomlists/' + item['shortName'], 
+                                         'https://www.douyu.com/directory/game/' + item['shortName'],  
+                                         item['cate2Id'], 
                                          datetime.now(),
-                                         item['short_name'], 
-                                         item['platform_id']))
+                                         item['shortName'], 
+                                         self.platform_id))
                 else:
                     # 插入操作
                     sql = '''insert into category(name, pic, icon, small_icon, count, mb_url, pc_url, cate_id, short_name, platform_id, created_time) 
                     values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
-                    cursor.execute(sql, (item['name'], 
+                    cursor.execute(sql, (item['cate2Name'], 
                                          item['pic'], 
                                          item['icon'], 
-                                         item['small_icon'], 
+                                         item['smallIcon'], 
                                          item['count'],
-                                         item['mb_url'], 
-                                         item['pc_url'], 
-                                         item['cate_id'], 
-                                         item['short_name'], 
-                                         item['platform_id'],
+                                         'https://m.douyu.com/roomlists/' + item['shortName'], 
+                                         'https://www.douyu.com/directory/game/' + item['shortName'], 
+                                         item['cate2Id'], 
+                                         item['shortName'], 
+                                         self.platform_id,
                                          datetime.now(),))
                 self.connect.commit()
 
