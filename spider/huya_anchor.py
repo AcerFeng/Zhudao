@@ -80,9 +80,103 @@ class Handler(BaseHandler):
         return {
             "url": response.url,
             "results": response.json['profileList'],
+            "save": response.save,
         }
     
     def get_subscribe(self, response):
         save = response.save
         print(save)
         print(response.doc('*').text())
+
+
+    def on_result(self,result):
+        if not result:
+            return
+        self.save_data(**result)
+        
+    def save_data(self, **kw):
+
+        if len(kw['results']) == 0:
+            return
+
+        for item in kw['results']:
+            try:
+                cursor = self.connect.cursor()
+                cursor.execute('select id from anchor where user_id=%s and platform_id=%s', (item['uid'],self.platform_id))
+                result = cursor.fetchone()
+                if result:
+                    # 更新操作(是否创建个主播分析表（新爬虫？）：包含平台、主播id、)
+                    sql = '''update anchor set 
+                        name=%s, 
+                        room_id=%s, 
+                        room_name=%s, 
+                        cover=%s,
+                        avatar=%s,
+                        avatar_mid=%s,
+                        avatar_small=%s,
+                        fans=%s,
+                        category_id=%s,
+                        cate_id=%s,
+                        online=%s,
+                        pc_url=%s,
+                        update_time=%s,
+                        show_time=%s  
+                        where user_id=%s and platform_id=%s'''
+                    cursor.execute(sql, (item['nick'],  
+                                         item['privateHost'], 
+                                         item['room_name'], 
+                                         item['room_src'], 
+                                         item['avatar'], 
+                                         item['avatar_mid'], 
+                                         item['avatar_small'],  
+                                         item['fans'],  
+                                         kw['category_id'],  
+                                         item['cate_id'],  
+                                         item['online'], 
+                                         'http://www.huya.com/' + item['privateHost'],
+                                         datetime.now(), 
+                                         datetime.fromtimestamp(float(item['show_time'])) if item['show_time'] else datetime.now(),
+                                         item['uid'], 
+                                         self.platform_id))
+                else:
+                    # 插入操作
+                    sql = '''insert into anchor(
+                        user_id, 
+                        name, 
+                        room_id, 
+                        room_name, 
+                        cover, 
+                        avatar, 
+                        avatar_mid, 
+                        avatar_small, 
+                        fans, 
+                        category_id, 
+                        cate_id, 
+                        online, 
+                        platform_id, 
+                        pc_url,
+                        show_time, 
+                        created_time) 
+                        values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
+                    cursor.execute(sql, (item['uid'], 
+                                         item['nick'], 
+                                         item['privateHost'], 
+                                         item['room_name'], 
+                                         item['room_src'],
+                                         item['avatar'], 
+                                         item['avatar_mid'], 
+                                         item['avatar_small'], 
+                                         item['fans'], 
+                                         kw['category_id'], 
+                                         item['cate_id'], 
+                                         item['online'], 
+                                         self.platform_id,
+                                         'http://www.huya.com/' + item['privateHost'],
+                                         datetime.fromtimestamp(float(item['show_time'])) if item['show_time'] else datetime.now(),
+                                         datetime.now(),
+                                        ))
+                self.connect.commit()
+
+            except Exception as e:
+                self.connect.rollback()
+                raise e
