@@ -7,6 +7,7 @@ from pyspider.libs.base_handler import *
 import re
 import pymysql
 from datetime import datetime
+import json
 
 
 class Handler(BaseHandler):
@@ -28,6 +29,7 @@ class Handler(BaseHandler):
     def __init__(self):
         self.limit = 120
         self.platform_id = 4
+        self.subscribe_par = re.compile(r'\((.+?)\)')
         try:
             self.connect = pymysql.connect(
                 host='localhost', port=3306, user='root', passwd='123456', db='zhudao', charset='utf8mb4')
@@ -76,17 +78,52 @@ class Handler(BaseHandler):
             self.crawl('http://api.huya.com/subscribe/getSubscribeStatus?from_key=&from_type=1&to_key=%s&to_type=2&callback=jQuery111108152252697200741_1516068669069&_=1516068669070' %
                            (item['uid'],),
                            callback=self.get_subscribe,
-                           save=save)
+                           save={'uid': item['uid']})
         return {
             "url": response.url,
             "results": response.json['profileList'],
-            "save": response.save,
+            "cate_id": response.save['cate_id'],
+            "category_id": response.save['category_id'],
         }
     
     def get_subscribe(self, response):
-        save = response.save
-        print(save)
-        print(response.doc('*').text())
+        re_sub = self.subscribe_par.search(response.doc('*').text())
+        if re_sub:
+            self.save_subscribe(json.loads(re_sub.group(1)), save=response.save)
+        
+    def save_subscribe(self, result, save):
+        if result and result.get('subscribe_count'):
+            try:
+                cursor = self.connect.cursor()
+                cursor.execute('select id from anchor where user_id=%s and platform_id=%s', (save['uid'], self.platform_id))
+                query_result = cursor.fetchone()
+                if query_result:
+                    # 更新操作(是否创建个主播分析表（新爬虫？）：包含平台、主播id、)
+                    sql = '''update anchor set 
+                        fans=%s 
+                        where user_id=%s and platform_id=%s'''
+                    cursor.execute(sql, (result['subscribe_count'],  
+                                         save['uid'], 
+                                         self.platform_id))
+                else:
+                    # 插入操作
+                    sql = '''insert into anchor(
+                        user_id, 
+                        fans, 
+                        platform_id, 
+                        created_time) 
+                        values (%s, %s, %s, %s)'''
+                    cursor.execute(sql, (save['uid'], 
+                                         result['subscribe_count'], 
+                                         self.platform_id,
+                                         datetime.now(),
+                                        ))
+                self.connect.commit()
+
+            except Exception as e:
+                self.connect.rollback()
+                raise e
+            
 
 
     def on_result(self,result):
@@ -111,31 +148,21 @@ class Handler(BaseHandler):
                         room_id=%s, 
                         room_name=%s, 
                         cover=%s,
-                        avatar=%s,
-                        avatar_mid=%s,
-                        avatar_small=%s,
-                        fans=%s,
                         category_id=%s,
                         cate_id=%s,
                         online=%s,
                         pc_url=%s,
-                        update_time=%s,
-                        show_time=%s  
+                        update_time=%s
                         where user_id=%s and platform_id=%s'''
                     cursor.execute(sql, (item['nick'],  
                                          item['privateHost'], 
-                                         item['room_name'], 
-                                         item['room_src'], 
-                                         item['avatar'], 
-                                         item['avatar_mid'], 
-                                         item['avatar_small'],  
-                                         item['fans'],  
+                                         item['introduction'], 
+                                         item['screenshot'], 
                                          kw['category_id'],  
-                                         item['cate_id'],  
-                                         item['online'], 
+                                         kw['cate_id'],  
+                                         item['totalCount'], 
                                          'http://www.huya.com/' + item['privateHost'],
                                          datetime.now(), 
-                                         datetime.fromtimestamp(float(item['show_time'])) if item['show_time'] else datetime.now(),
                                          item['uid'], 
                                          self.platform_id))
                 else:
@@ -146,33 +173,23 @@ class Handler(BaseHandler):
                         room_id, 
                         room_name, 
                         cover, 
-                        avatar, 
-                        avatar_mid, 
-                        avatar_small, 
-                        fans, 
                         category_id, 
                         cate_id, 
                         online, 
                         platform_id, 
                         pc_url,
-                        show_time, 
                         created_time) 
-                        values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
+                        values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
                     cursor.execute(sql, (item['uid'], 
                                          item['nick'], 
                                          item['privateHost'], 
-                                         item['room_name'], 
-                                         item['room_src'],
-                                         item['avatar'], 
-                                         item['avatar_mid'], 
-                                         item['avatar_small'], 
-                                         item['fans'], 
+                                         item['introduction'], 
+                                         item['screenshot'],
                                          kw['category_id'], 
-                                         item['cate_id'], 
-                                         item['online'], 
+                                         kw['cate_id'], 
+                                         item['totalCount'], 
                                          self.platform_id,
                                          'http://www.huya.com/' + item['privateHost'],
-                                         datetime.fromtimestamp(float(item['show_time'])) if item['show_time'] else datetime.now(),
                                          datetime.now(),
                                         ))
                 self.connect.commit()
