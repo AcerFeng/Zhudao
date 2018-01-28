@@ -79,7 +79,6 @@ class Handler(BaseHandler):
     def index_page(self, response):
         save = response.save
         # 存储列表中的主播信息
-        # self.save_list_info(response.json['data']['streamFlows'], save)
         if len(response.json['data']['streamFlows']) >= 1 and len(response.json['data']['streamFlows'][0]['streams']) >= self.pageSize:
             save['offset'] += self.pageSize
             self.crawl('https://stark.longzhu.com/api/v2/stream/search?type=7&target=%s&start-index=%s&max-results=%s&parentId=10105&version=4.6.2&device=4&packageId=1&utm_sr=chanel_10' %
@@ -204,86 +203,3 @@ class Handler(BaseHandler):
             self.connect.rollback()
             raise e
 
-    def save_list_info(self, results, save):
-        if len(results) == 0:
-            return
-        for result in results:
-            for item in result['streams']:
-                try:
-                    cursor=self.connect.cursor()
-                    cursor.execute('select id from anchor where platform_id = %s and user_id = %s;' % (
-                        str(self.platform_id), item['user']['uid']))
-                    sql_result=cursor.fetchone()
-                    if sql_result:
-                        # 更新
-                        sql='''
-                        update anchor set
-                        name=%s,
-                        room_id=%s,
-                        room_name=%s,
-                        room_src=%s,
-                        avatar=%s,
-                        avatar_mid=%s,
-                        avatar_small=%s,
-                        category_id=%s,
-                        cate_id=%s,
-                        pc_url=%s,
-                        update_time=%s,
-                        show_time=%s
-                        where user_id=%s and platform_id=%s;
-                        '''
-                        cursor.execute(sql, (item['user']['name'],
-                                             item['room']['id'],
-                                             item['room']['title'],
-                                             item['cover'],
-                                             item['user']['avatar'],
-                                             item['user']['avatar'],
-                                             item['user']['avatar'],
-                                             save['category_id'],
-                                             save['cate_id'],
-                                             item['adverts']['ad_target'],
-                                             datetime.now(),
-                                             datetime.fromtimestamp(float(
-                                                 item['room']['broadcast_begin'])) if item['room']['broadcast_begin'] else datetime.now(),
-                                             item['user']['uid'],
-                                             self.platform_id))
-
-                    else:
-                        # 插入
-                        sql='''insert into anchor(
-                        user_id,
-                        name,
-                        room_id,
-                        room_name,
-                        room_src,
-                        avatar,
-                        avatar_mid,
-                        avatar_small,
-                        category_id,
-                        cate_id,
-                        platform_id,
-                        pc_url,
-                        show_time,
-                        created_time)
-                        values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
-                        cursor.execute(sql, (item['user']['uid'],
-                                             item['user']['name'],
-                                             item['room']['id'],
-                                             item['room']['title'],
-                                             item['cover'],
-                                             item['user']['avatar'],
-                                             item['user']['avatar'],
-                                             item['user']['avatar'],
-                                             save['category_id'],
-                                             save['cate_id'],
-                                             self.platform_id,
-                                             item['adverts']['ad_target'],
-                                             datetime.fromtimestamp(float(
-                                                 item['room']['broadcast_begin'])) if item['room']['broadcast_begin'] else datetime.now(),
-                                             datetime.now(),
-                                             ))
-
-                    self.connect.commit()
-                except Exception as e:
-                    self.connect.rollback()
-                    raise e
