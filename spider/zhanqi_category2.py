@@ -46,10 +46,6 @@ class Handler(BaseHandler):
 
     @config(priority=2)
     def detail_page(self, response):
-        for item in response.json['data']['games']:
-            re_short_name = self.pattern_shortName.search(item['url'])
-            print(re_short_name.group(1))
-
         return {
             "url": response.url,
             "title": response.doc('title').text(),
