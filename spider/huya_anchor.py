@@ -30,6 +30,7 @@ class Handler(BaseHandler):
         self.limit = 120
         self.platform_id = 4
         self.subscribe_par = re.compile(r'\((.+?)\)')
+        self.avater_par = re.compile(r'\((.+)')
         try:
             self.connect = pymysql.connect(
                 host='localhost', port=3306, user='root', passwd='123456', db='zhudao', charset='utf8mb4')
@@ -79,12 +80,69 @@ class Handler(BaseHandler):
                            (item['uid'],),
                            callback=self.get_subscribe,
                            save={'uid': item['uid']})
+            self.crawl('https://search.cdn.huya.com/?m=Search&do=getSearchContent&plt=m&q=%s&uid=0&app=11&v=1&typ=-5&start=0&rows=4&callback=jQuery200049810552581192247_1517068451880&_=1517068451882' %
+                           (item['nick'],),
+                           callback=self.get_avatar,
+                           save={'uid': item['uid']})
         return {
             "url": response.url,
             "results": response.json['profileList'],
             "cate_id": response.save['cate_id'],
             "category_id": response.save['category_id'],
         }
+
+    def get_avatar(self, response):
+        re_avatar = self.avater_par.search(response.doc('*').text())
+        if re_avatar:
+            self.save_avatar(json.loads(re_avatar.group(1)), save=response.save)
+
+    def save_avatar(self, result, save):
+        if (not result.get('response')) or (not result.get('response').get('1')) or (not result.get('response').get('1').get('docs')):
+            return
+        docs = result.get('response').get('1').get('docs')
+        for item in docs:
+            if str(item['uid']) == str(save['uid']):
+                print('if')
+                try:
+                    cursor = self.connect.cursor()
+                    cursor.execute('select id from anchor where user_id=%s and platform_id=%s', (save['uid'], self.platform_id))
+                    query_result = cursor.fetchone()
+                    if query_result:
+                        # 更新操作(是否创建个主播分析表（新爬虫？）：包含平台、主播id、)
+                        sql = '''update anchor set 
+                            avatar=%s,
+                            avatar_mid=%s,
+                            avatar_small=%s 
+                            where user_id=%s and platform_id=%s'''
+                        cursor.execute(sql, (item['game_avatarUrl180'],  
+                                            item['game_avatarUrl180'],
+                                            item['game_avatarUrl180'],
+                                            save['uid'], 
+                                            self.platform_id))
+                    else:
+                        # 插入操作
+                        sql = '''insert into anchor(
+                            user_id, 
+                            avatar,  
+                            avatar_mid,  
+                            avatar_small, 
+                            platform_id, 
+                            created_time) 
+                            values (%s, %s, %s, %s, %s, %s)'''
+                        cursor.execute(sql, (save['uid'], 
+                                            item['game_avatarUrl180'], 
+                                            item['game_avatarUrl180'], 
+                                            item['game_avatarUrl180'], 
+                                            self.platform_id,
+                                            datetime.now(),
+                                            ))
+                    self.connect.commit()
+
+                except Exception as e:
+                    self.connect.rollback()
+                    raise e
+
+                break
     
     def get_subscribe(self, response):
         re_sub = self.subscribe_par.search(response.doc('*').text())
@@ -197,3 +255,4 @@ class Handler(BaseHandler):
             except Exception as e:
                 self.connect.rollback()
                 raise e
+
