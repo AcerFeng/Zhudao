@@ -102,7 +102,6 @@ class Handler(BaseHandler):
         docs = result.get('response').get('1').get('docs')
         for item in docs:
             if str(item['uid']) == str(save['uid']):
-                print('if')
                 try:
                     cursor = self.connect.cursor()
                     cursor.execute('select id from anchor where user_id=%s and platform_id=%s', (save['uid'], self.platform_id))
