@@ -2,3 +2,8 @@
     height: 500px;
     border: 1px solid gray;
 }
+
+footer {
+    height: 200px;
+    background-color: aliceblue;
+}
