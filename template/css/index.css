@@ -35,7 +35,7 @@ body {
 
 .cate-list {
     background-color: #fff;
-    padding: 10px 15px;
+    padding: 15px 15px;
 }
 
 .cate-title img {
@@ -50,14 +50,8 @@ body {
 }
 
 .cate-list ul li {
-    display: block;
     text-align: center;
     padding-bottom: 10px;
-}
-
-.cate-list .cate-item .cover {
-    width: 100%;
-    overflow: hidden;
 }
 
 .cover img {
@@ -73,6 +67,19 @@ body {
 
 .cate-item a {
     text-decoration: none;
+}
+
+.recomment {
+    background-color: #fff;
+    height: 100%;
+}
+
+.re-list {
+    padding: 10px 15px;
+}
+
+.re-list li {
+
 }
 
 footer {
