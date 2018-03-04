@@ -69,9 +69,26 @@ body {
     text-decoration: none;
 }
 
+@media screen and (min-width: 1200px) {
+    .recomment {
+        height: 445px;
+    }
+    .re-list li {
+        height: 85px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .recomment {
+        height: 378px;
+    }
+    .re-list li {
+        height: 70px;
+    }
+}
+
 .recomment {
     background-color: #fff;
-    height: 100%;
 }
 
 .re-list {
@@ -79,8 +96,25 @@ body {
 }
 
 .re-list li {
-
+    width: 100%;
+    margin-bottom: 10px;
 }
+
+.re-list li a {
+    display: block;
+    height: 100%;
+}
+
+.re-list .img-box {
+    position: relative;
+    height: 100%;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
+
 
 footer {
     height: 200px;
