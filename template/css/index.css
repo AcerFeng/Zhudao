@@ -35,7 +35,7 @@ body {
 
 .cate-list {
     background-color: #fff;
-    padding: 15px 15px;
+    padding: 15px;
 }
 
 .cate-title img {
@@ -115,8 +115,90 @@ body {
     height: 100%;
 }
 
+.live-section {
+    margin-top: 15px;
+}
+
+.live-section a {
+    text-decoration: none;
+}
+
+.live-list {
+    padding: 15px;
+    background-color: white;
+}
+
+.live-list .item {
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.room-info {
+    
+}
+
+.room-info span {
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.room-info .live-title {
+    
+}
+
+.live-list .live-content {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.live-list ul li {
+    padding-bottom: 15px;
+}
+
+.live-list .img-box {
+    position: relative;
+}
+
+.live-list .img-box img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.live-list .img-box span {
+    padding: 2px;
+    font-size: 12px;
+    color: white;
+    border-radius: 3px;
+    margin: 3px auto auto 3px;
+    position: absolute;
+    background-color: rgb(230, 125, 84);
+}
+
+.live-content {}
+
+.anchor {
+    margin-top: 8px;
+}
+
+.anchor span {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.anchor .anchor-name {
+    margin-left: 5px;
+}
+
+.anchor .fans {
+    margin-left: 5px;
+}
 
 footer {
+    margin-top: 15px;
     height: 200px;
     background-color: aliceblue;
 }
+
