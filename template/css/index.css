@@ -2,13 +2,43 @@ body {
     background-color: #f2f2f2;
 }
 
+
+@media screen and (max-width:500px) {
+    .ad-pic-box {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    .ad-pic-box {
+        height: 290px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .ad-pic-box {
+        height: 380px;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .ad-pic-box {
+        height: 450px;
+    }
+}
+
 .ad-pic-box {
-    height: 450px;
     overflow: hidden;
 }
 
 .ad-pic-box img {
     width: 100%;
+}
+
+@media screen and (max-width:1200px) {
+    .ad-list {
+        display: none;
+    }
 }
 
 .thumbnail {
@@ -25,6 +55,12 @@ body {
     width: 46%;
     height: 19%;
     border: 1px solid red;
+}
+
+@media screen and (max-width:1200px) {
+    .hot-cate {
+        margin-top: 15px;
+    }
 }
 
 .cate-header {
