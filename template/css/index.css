@@ -41,26 +41,35 @@ body {
     }
 }
 
-.thumbnail {
+.thumbnail-pic {
+    background-color: #fff;
     height: 450px;
+    padding: 10px 5px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.thumbnail li {
+.thumbnail-pic li {
     box-sizing:border-box;
 -moz-box-sizing:border-box; /* Firefox */
 -webkit-box-sizing:border-box; /* Safari */
     width: 46%;
     height: 19%;
-    border: 1px solid red;
+    display: block;
+    /* border: 1px solid red; */
 }
 
-@media screen and (max-width:1200px) {
-    .hot-cate {
-        margin-top: 15px;
-    }
+.thumbnail-pic a {
+    display: block;
+}
+
+.thumbnail-pic a img {
+    width: 100%;
+}
+
+.hot-cate {
+    margin-top: 15px;
 }
 
 .cate-header {
