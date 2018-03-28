@@ -12,8 +12,8 @@
     crossorigin="anonymous">
 
   <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
-  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-    crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/list.css">
@@ -21,12 +21,12 @@
   <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-    <script src="./js/index.js"></script>
+  <script src="./js/index.js"></script>
   <title>Document</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -37,19 +37,19 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">主岛</a>
+        <a class="navbar-brand" href="/template/index.html">主岛</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="#">首页
+          <li class="">
+            <a href="/template/index.html">首页
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li>
-            <a href="#">直播</a>
+          <li class="active">
+            <a href="javascript:;">直播</a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">分类
@@ -104,16 +104,2493 @@
   </nav>
   <div class="container-fluid">
     <div class="left-side">
-      asdfasdf
+      <div class="side-content">
+        <ul class="channel-cate">
+          <li class="channel-item">
+            <a class="channel-title">
+              <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+              <span class="text">全部直播</span>
+            </a>
+            <ul class="platform-list">
+              <li>
+                <a href="#douyu">斗鱼</a>
+              </li>
+              <li>
+                <a href="#panda">熊猫</a>
+              </li>
+              <li>
+                <a href="#huya">虎牙</a>
+              </li>
+              <li>
+                <a href="#zhnqi">战旗</a>
+              </li>
+              <li>
+                <a href="#longzhu">龙珠</a>
+              </li>
+              <li>
+                <a href="#quanmin">全民</a>
+              </li>
+            </ul>
+          </li>
+          <li class="channel-item">
+            <a href="#" class="channel-title">
+              <span class="glyphicon glyphicon-equalizer" aria-hidden="true"></span>
+              <span class="text">全部分类</span>
+            </a>
+          </li>
+          <li class="channel-item">
+            <a href="#" class="channel-title">
+              <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+              <span class="text">排行榜</span>
+            </a>
+          </li>
+          <li class="channel-item">
+            <a href="#" class="channel-title">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              <span class="text">我的关注</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="main">
       <div class="main-child">
-        
+        <div class="live-list">
+          <ul class="row">
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-md-5ths col-sm-4 col-xs-6">
+              <div class="item">
+                <a href="javascript:;">
+                  <div class="img-box">
+                    <span>斗鱼</span>
+                    <img src="http://dummyimage.com/70x50" alt="">
+                  </div>
+                </a>
+                <div class="live-content">
+                  <div class="room-info">
+                    <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                      <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                    </a>
+                  </div>
+                  <div class="anchor clearfix">
+                    <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                    <span class="anchor-name pull-left">是打飞机</span>
+                    <span class="fans pull-right">34.4万</span>
+                    <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <ul class="row">
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-5ths col-sm-4 col-xs-6">
+                <div class="item">
+                  <a href="javascript:;">
+                    <div class="img-box">
+                      <span>斗鱼</span>
+                      <img src="http://dummyimage.com/70x50" alt="">
+                    </div>
+                  </a>
+                  <div class="live-content">
+                    <div class="room-info">
+                      <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                        <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                      </a>
+                    </div>
+                    <div class="anchor clearfix">
+                      <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                      <span class="anchor-name pull-left">是打飞机</span>
+                      <span class="fans pull-right">34.4万</span>
+                      <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul class="row">
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-md-5ths col-sm-4 col-xs-6">
+                  <div class="item">
+                    <a href="javascript:;">
+                      <div class="img-box">
+                        <span>斗鱼</span>
+                        <img src="http://dummyimage.com/70x50" alt="">
+                      </div>
+                    </a>
+                    <div class="live-content">
+                      <div class="room-info">
+                        <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                          <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                        </a>
+                      </div>
+                      <div class="anchor clearfix">
+                        <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                        <span class="anchor-name pull-left">是打飞机</span>
+                        <span class="fans pull-right">34.4万</span>
+                        <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="row">
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-md-5ths col-sm-4 col-xs-6">
+                    <div class="item">
+                      <a href="javascript:;">
+                        <div class="img-box">
+                          <span>斗鱼</span>
+                          <img src="http://dummyimage.com/70x50" alt="">
+                        </div>
+                      </a>
+                      <div class="live-content">
+                        <div class="room-info">
+                          <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                            <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                          </a>
+                        </div>
+                        <div class="anchor clearfix">
+                          <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                          <span class="anchor-name pull-left">是打飞机</span>
+                          <span class="fans pull-right">34.4万</span>
+                          <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="row">
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="col-md-5ths col-sm-4 col-xs-6">
+                      <div class="item">
+                        <a href="javascript:;">
+                          <div class="img-box">
+                            <span>斗鱼</span>
+                            <img src="http://dummyimage.com/70x50" alt="">
+                          </div>
+                        </a>
+                        <div class="live-content">
+                          <div class="room-info">
+                            <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                              <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                            </a>
+                          </div>
+                          <div class="anchor clearfix">
+                            <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                            <span class="anchor-name pull-left">是打飞机</span>
+                            <span class="fans pull-right">34.4万</span>
+                            <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="row">
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="col-md-5ths col-sm-4 col-xs-6">
+                        <div class="item">
+                          <a href="javascript:;">
+                            <div class="img-box">
+                              <span>斗鱼</span>
+                              <img src="http://dummyimage.com/70x50" alt="">
+                            </div>
+                          </a>
+                          <div class="live-content">
+                            <div class="room-info">
+                              <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                              </a>
+                            </div>
+                            <div class="anchor clearfix">
+                              <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                              <span class="anchor-name pull-left">是打飞机</span>
+                              <span class="fans pull-right">34.4万</span>
+                              <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="row">
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="col-md-5ths col-sm-4 col-xs-6">
+                          <div class="item">
+                            <a href="javascript:;">
+                              <div class="img-box">
+                                <span>斗鱼</span>
+                                <img src="http://dummyimage.com/70x50" alt="">
+                              </div>
+                            </a>
+                            <div class="live-content">
+                              <div class="room-info">
+                                <a href="javascript:;" title="撒地方咖啡山东福利卡世纪东方两端">
+                                  <span class="live-title">撒地方咖啡山东福利卡世纪东方两端</span>
+                                </a>
+                              </div>
+                              <div class="anchor clearfix">
+                                <img class="img-circle pull-left" src="http://dummyimage.com/20x20" height="24px" width="24px" alt="">
+                                <span class="anchor-name pull-left">是打飞机</span>
+                                <span class="fans pull-right">34.4万</span>
+                                <img class="pull-right" src="http://dummyimage.com/20x20" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+        </div>
       </div>
     </div>
   </div>
-  
-  
+
+
 </body>
 
 </html>
