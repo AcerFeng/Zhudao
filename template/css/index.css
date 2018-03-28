@@ -78,6 +78,11 @@ body {
     border-bottom: 1px solid #f3f4f8;
 }
 
+.all-cate a {
+    display: inline-block;
+    text-decoration: none;
+}
+
 .cate-list {
     background-color: #fff;
     padding: 15px;
