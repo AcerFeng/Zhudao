@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+}
+
+.left-side {
+    position: fixed;
+    /* min-height: 100%; */
+    width:244px;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #ccc;
+}
+
+.main {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+.main-child {
+    height: 10000px;
+    background-color: red;
+}
