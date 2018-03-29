@@ -2,6 +2,10 @@ body {
     background-color: #f2f2f2;
 }
 
+a {
+    color: #14B9C8;
+}
+
 .navbar-default {
     background-color: #00b9c8;
     border-color: #009baa;
@@ -166,6 +170,10 @@ body {
     padding: 15px;
 }
 
+.cate-item p {
+    color: #333;
+}
+
 .cate-title img {
     float: left;
 }
@@ -263,7 +271,15 @@ body {
 
 .live-list .item {
     border-radius: 6px;
-    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+
+.live-list .item:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.267);
+}
+
+.live-list .item:hover .live-title {
+    color: #14B9C8;
 }
 
 .room-info {
@@ -279,12 +295,22 @@ body {
 }
 
 .room-info .live-title {
-    
+    font-size: 14px;
 }
 
 .live-list .live-content {
     padding: 5px 5px;
     font-size: 12px;
+    
+    
+}
+
+.live-list .live-content:hover {
+    
+}
+
+.live-content .room-info a {
+    color: #333;
 }
 
 .live-list ul li {
@@ -317,6 +343,7 @@ body {
 .anchor span {
     font-size: 12px;
     line-height: 24px;
+    color: #999;
 }
 
 .anchor .anchor-name {
