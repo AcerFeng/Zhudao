@@ -1,5 +1,7 @@
 body {
     background-color: #f2f2f2;
+    font-family: Tahoma,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif!important;
+    font-weight: 400;
 }
 
 a {
