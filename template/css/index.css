@@ -121,6 +121,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
 }
 
 .thumbnail-pic li {
@@ -143,6 +144,10 @@ body {
 
 .hot-cate {
     margin-top: 15px;
+}
+
+.hot-cate .cate {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
 }
 
 .cate-header {
@@ -212,6 +217,7 @@ body {
 
 .recomment {
     background-color: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
 }
 
 .re-list {
@@ -240,6 +246,10 @@ body {
 
 .live-section {
     margin-top: 15px;
+}
+
+.live-section .live-main {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
 }
 
 .live-section a {
@@ -273,7 +283,7 @@ body {
 }
 
 .live-list .live-content {
-    padding: 10px;
+    padding: 5px 5px;
     font-size: 12px;
 }
 
@@ -282,12 +292,12 @@ body {
 }
 
 .live-list .img-box {
+    
     position: relative;
 }
 
 .live-list .img-box img {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    width: 100%;
 }
 
 .live-list .img-box span {
@@ -300,10 +310,8 @@ body {
     background-color: rgb(230, 125, 84);
 }
 
-.live-content {}
-
 .anchor {
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 .anchor span {
