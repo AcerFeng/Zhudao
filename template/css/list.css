@@ -5,12 +5,7 @@
     left: 0;
     bottom: 0;
     z-index: 1;
-    /* color: #fff;
-    background-color: #ccc; */
-    /* background-color: #fafafa; */
-    /* background-color: #191b2e; */
-    background-color: #3c3c3c;
-    /* padding: 10px 10px; */
+    background-color: #2c2c2c;
     text-align: center;
 }
 
@@ -20,6 +15,10 @@
 
 .side-content .channel-item .active {
     color: #14B9C8;
+}
+
+.channel-item {
+    margin-top: 20px;
 }
 
 .left-side a {
@@ -47,10 +46,7 @@
 }
 
 .platform-list {
-    margin-top: 10px;
-    /* background-color: #fff; */
-    /* box-shadow: 0 2px 3px 0 rgba(0,0,0,.15); */
-    /* padding: 10px; */
+    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -62,27 +58,16 @@
     width: 30%;
     height: 25px;
     margin-bottom: 10px;
-    /* background-color: #fff; */
-    /* border: 1px solid #14B9C8; */
-    /* background-color: #14B9C8; */
-    /* color: #fff; */
     background-color: #3f3f3f;
 }
 
 .platform-list li:hover a {
-    /* background-color: #14B9C8;
-    color: #fff; */
     background-color: #009baa;
-}
-
-.channel-item {
-    margin-top: 10px;
 }
 
 .platform-list a {
     font-size: 12px;
     line-height: 25px;
-    /* color: #14B9C8; */
     color: #fff;
 }
 
@@ -93,5 +78,4 @@
 
 .main-child {
     height: 1000px;
-    /* background-color: green; */
 }
