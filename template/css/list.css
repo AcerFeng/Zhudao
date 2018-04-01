@@ -1,3 +1,23 @@
+.hidden-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.hidden-btn span {
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 25px;
+}
+
 .left-side {
     position: fixed;
     width:240px;
@@ -10,7 +30,8 @@
 }
 
 .left-side .side-content {
-    padding: 10px 15px;
+    margin-top: 50px;
+    padding: 0 15px;
 }
 
 .side-content .channel-item .active {
@@ -18,14 +39,19 @@
 }
 
 .channel-item {
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .left-side a {
     text-decoration: none;
 }
 
+.left-side a:hover {
+    text-decoration: none;
+}
+
 .left-side .channel-title {
+    padding: 10px 0;
     font-size: 18px;
     line-height: 18px;
     color: #14B9C8;
@@ -46,7 +72,7 @@
 }
 
 .platform-list {
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -81,7 +107,7 @@
 }
 
 .live-list {
-
+    background-color: #f2f2f2;
 }
 
 @media ( min-width : 1400px) {

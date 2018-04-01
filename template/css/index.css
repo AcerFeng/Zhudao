@@ -285,7 +285,7 @@ nav.navbar .navbar-header .navbar-toggle {
 }
 
 .live-list .item {
-    border-radius: 6px;
+    /* border-radius: 6px; */
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
 }
 
@@ -316,7 +316,7 @@ nav.navbar .navbar-header .navbar-toggle {
 .live-list .live-content {
     padding: 5px 5px;
     font-size: 12px;
-    
+    background-color: #fff;
     
 }
 
@@ -333,7 +333,7 @@ nav.navbar .navbar-header .navbar-toggle {
 }
 
 .live-list .img-box {
-    height: 10rem;
+    /* height: 10rem; */
     position: relative;
 }
 

@@ -17,11 +17,12 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/list.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_588604_zv1gdp5ay3wvobt9.css">
 
   <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-  <script src="./js/index.js"></script>
+  <script src="./js/list.js"></script>
   <title>Document</title>
 </head>
 
@@ -103,7 +104,10 @@
     <!-- /.container-fluid -->
   </nav>
   <div class="container-fluid">
-    <div class="left-side">
+      <a href="#" id="hidde-btn" class="hidden-btn">
+          <span id="hidde-icon" class="iconfont icon-left"></span>
+      </a>
+    <div id="left-side" class="left-side">
       <div class="side-content">
         <ul class="channel-cate">
           <li class="channel-item">
@@ -148,11 +152,8 @@
           </li>
         </ul>
       </div>
-      <div class="left-small">
-
-      </div>
     </div>
-    <div class="main">
+    <div id="main" class="main">
       <div class="main-child">
         <div class="live-list">
           <ul class="row">
