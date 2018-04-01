@@ -1,5 +1,5 @@
 .hidden-btn {
-    position: absolute;
+    position: fixed;
     width: 50px;
     height: 50px;
     top: 50px;
@@ -58,9 +58,24 @@
     text-align: left;
 }
 
-.left-side .cate {
-    margin-top: 20px;
+.left-side .hot-cate {
     color: #fff;
+    position: absolute;
+    width: 230px;
+    top: 280px;
+    bottom: 40px;
+    overflow: hidden;
+}
+
+.left-side .cate {
+    margin-top: 10px;
+    color: #fff;
+    display: inline-block;
+    width: 240px;
+    height: 100%;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .cate .cate-section {
@@ -68,18 +83,16 @@
 }
 
 .cate-section .game-list {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin: 10px -10px 0 0;
 }
 
 .game-list li {
+    float: left;
     overflow: hidden;
     border-radius: 2px;
-    width: 30%;
+    width: 63px;
     height: 25px;
-    margin-bottom: 10px;
+    margin: 0 10px 10px 0;
     background-color: #3f3f3f;
 }
 
@@ -116,16 +129,15 @@
 }
 
 .platform-list {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin: 10px -10px 0 0;
 }
 
 .platform-list li {
+    float: left;
+    margin: 0 10px 10px 0;
     overflow: hidden;
     border-radius: 2px;
-    width: 30%;
+    width: 63px;
     height: 25px;
     margin-bottom: 10px;
     background-color: #3f3f3f;
