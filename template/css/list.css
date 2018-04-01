@@ -79,3 +79,13 @@
 .main-child {
     height: 1000px;
 }
+
+.live-list {
+
+}
+
+@media ( min-width : 1400px) {
+    .live-list .col-lg-2 {
+        width: 16.66666667% !important;
+    }
+}

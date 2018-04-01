@@ -78,6 +78,19 @@ a {
     }
   }
 
+
+nav.navbar .navbar-header .navbar-toggle {
+    /* float: left; */
+    /* margin: 10.5px -10px 8.5px 5px; */
+    /* padding: 8px 10px; */
+    /* border: none;
+    background: 0 0; */
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
 .main {
     margin-top: 65px;
 }
@@ -320,12 +333,14 @@ a {
 }
 
 .live-list .img-box {
-    
+    height: 10rem;
     position: relative;
 }
 
 .live-list .img-box img {
+    /* width: 100%; */
     width: 100%;
+    /* height: 100%; */
 }
 
 .live-list .img-box span {
