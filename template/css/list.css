@@ -58,6 +58,50 @@
     text-align: left;
 }
 
+.left-side .cate {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.cate .cate-section {
+    margin-top: 10px;
+}
+
+.cate-section .game-list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.game-list li {
+    overflow: hidden;
+    border-radius: 2px;
+    width: 30%;
+    height: 25px;
+    margin-bottom: 10px;
+    background-color: #3f3f3f;
+}
+
+.game-list li a {
+    font-size: 12px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.game-list li:hover a {
+    background-color: #009baa;
+}
+
+.cate .cate-section h4 {
+    text-align: left;
+    border-left: 4px solid #14B9C8;
+    padding-left: 8px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999;
+}
+
 .channel-title .text {
     color: #333;
     border-left: 4px solid #14B9C8;
