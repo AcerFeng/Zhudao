@@ -83,6 +83,10 @@
     margin-top: 10px;
 }
 
+.cate-section a h4:hover {
+    color: #14B9C8;
+}
+
 .cate-section .game-list {
     margin: 10px -10px 0 0;
 }
@@ -126,7 +130,7 @@
 }
 
 .channel-title .text:hover {
-    color: #fff;
+    color: #14B9C8;
 }
 
 .platform-list {
