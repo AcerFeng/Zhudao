@@ -1,44 +1,22 @@
 $(function() {
     $('#hidde-btn').click(function(){
         var icon = $('#hidde-icon');
-        if (icon.hasClass('icon-left')) {
-            icon.removeClass('icon-left').addClass('icon-right1'); 
-            hiddenSide();
-            longMain();
-        } else if (icon.hasClass('icon-right1')) {
-            icon.removeClass('icon-right1').addClass('icon-left'); 
-            displaySide();
-            shortMain();
+        if ($('#left-side').css('left') === '0px') {
+            icon.removeClass('icon-left').addClass('icon-right1');
+            $('#left-side').removeClass('show-side');
+            $('#left-side').addClass('hidden-side');
+            $('#main').removeClass('main-move-right');
+            $('#main').addClass('main-move-left');
+        } else {
+            icon.removeClass('icon-right1').addClass('icon-left');
+            $('#left-side').removeClass('hidden-side');
+            $('#left-side').addClass('show-side');
+            $('#main').removeClass('main-move-left');
+            $('#main').addClass('main-move-right');
         }
 
 
     });
-
-    function hiddenSide() {
-        $('#left-side').animate({
-            left: '-240px'
-        });
-    }
-
-    function displaySide() {
-        $('#left-side').animate({
-            left: '0'
-        });
-    }
-
-    function longMain() {
-        $('#main').animate({
-            'margin-left': '50px'
-        });
-    }
-
-    function shortMain() {
-        $('#main').animate({
-            'margin-left': '270px'
-        });
-    }
-    
-
     
 });
 
