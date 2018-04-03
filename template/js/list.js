@@ -11,8 +11,10 @@ $(function() {
             icon.removeClass('icon-right1').addClass('icon-left');
             $('#left-side').removeClass('hidden-side');
             $('#left-side').addClass('show-side');
-            $('#main').removeClass('main-move-left');
-            $('#main').addClass('main-move-right');
+            if ($(window).width()>769) {
+                $('#main').removeClass('main-move-left');
+                $('#main').addClass('main-move-right');
+            }
         }
 
 
