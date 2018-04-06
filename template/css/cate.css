@@ -1,0 +1,34 @@
+.main-child .category-list {
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.main-child .category-list .item {
+    /* width: 120px; */
+    float: left;
+    margin-left: 20px;
+    /* margin: 0 25px 20px 0; */
+}
+
+@media screen and (max-width:678px) {
+    .main-child .category-list .item {
+        width: 43%;
+    }
+}
+
+.item .item-wrap {
+    width: 100%;
+}
+
+.item-wrap .cate-cover>img {
+    width:100%;
+}
+
+.item-wrap .cate-name {
+    height: 30px;
+    text-align: center;
+}
+
+.cate-name span {
+    line-height: 30px;
+}
