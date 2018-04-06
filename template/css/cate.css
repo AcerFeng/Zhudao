@@ -4,10 +4,21 @@
 }
 
 .main-child .category-list .item {
-    /* width: 120px; */
     float: left;
-    margin-left: 20px;
-    /* margin: 0 25px 20px 0; */
+    margin: 0 0 20px 20px;
+}
+
+.category-list .item:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+
+.category-list .item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.category-list .item a:hover {
+    color: #14B9C8;
 }
 
 @media screen and (max-width:678px) {
@@ -27,6 +38,7 @@
 .item-wrap .cate-name {
     height: 30px;
     text-align: center;
+    background-color: #fff;
 }
 
 .cate-name span {
