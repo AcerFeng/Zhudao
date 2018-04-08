@@ -44,3 +44,35 @@
 .cate-name span {
     line-height: 30px;
 }
+
+.header .cate-list {
+    padding: 0;
+    display: flex;
+    margin-top: 10px;
+}
+
+.header .cate-list li {
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #14B9C8;
+    border-radius: 4px;
+}
+
+.header .cate-list li:hover {
+    background-color: #14B9C8;
+    color: #fff;
+}
+
+.header .cate-list li a {
+    padding: 2px 4px;
+    text-decoration: none;
+}
+
+.header .cate-list li a:hover {
+    color: #fff;
+}
+
+.header .active {
+    color: #fff;
+    background-color: #14B9C8;
+}
