@@ -230,7 +230,9 @@
     margin-left: -5px;
 }
 
-.live-list {
+.main-child .live-list {
+    margin-top: 20px;
+    padding: 0;
     background-color: #f2f2f2;
 }
 
