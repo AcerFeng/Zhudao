@@ -19,7 +19,12 @@
 .anchor-header-icon {
     float: left;
     position: relative;
-    width:180px;
+}
+
+.anchor-header-icon .icon-box {
+    width: 135px;
+    height: 192px;
+    overflow: hidden;
 }
 
 .anchor-header-icon .icon-box>img {
@@ -29,7 +34,34 @@
 
 .anchor-header-info {
     position: relative;
-    margin-left: 200px;
+    margin-left: 155px;
+}
+
+.anchor-header-info .info-left {
+    float: left;
+    width: 300px;
+}
+
+.anchor-header-info .info-right {
+    float: right;
+    text-align: center;
+}
+
+.anchor-header-info .info-right .fans {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info-right .avatar-box {
+    /* width: 50px;
+    height: 50px; */
+    /* overflow: hidden; */
+    text-align: center;
+}
+
+.info-right .avatar-box>img {
+    margin: 0 auto;
 }
 
 .anchor-header-info .name {
@@ -44,6 +76,10 @@
 
 .info-item .info-key::after {
     content: ':';
+}
+
+.info-item .info-value {
+    color: #666;
 }
 
 .info-item .info-value a {
