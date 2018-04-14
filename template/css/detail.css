@@ -51,6 +51,15 @@
     color: #999;
     font-size: 14px;
     font-weight: 400;
+    margin-top: 10px;
+}
+
+.info-right .follow {
+    margin-top: 10px;
+}
+
+.follow .flow-text {
+    margin-left: 5px;
 }
 
 .info-right .avatar-box {
@@ -58,10 +67,12 @@
     height: 50px; */
     /* overflow: hidden; */
     text-align: center;
+    height: 80px;
 }
 
 .info-right .avatar-box>img {
     margin: 0 auto;
+    height: 100%;
 }
 
 .anchor-header-info .name {
