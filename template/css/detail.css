@@ -62,16 +62,21 @@
     margin-left: 5px;
 }
 
+.info-right .avatar>a {
+    display: inline-block;
+}
+
 .info-right .avatar-box {
     /* width: 50px;
     height: 50px; */
     /* overflow: hidden; */
     text-align: center;
     height: 80px;
+    width: 80px;
+    margin: 0 auto;
 }
 
 .info-right .avatar-box>img {
-    margin: 0 auto;
     height: 100%;
 }
 
@@ -91,6 +96,10 @@
 
 .info-item .info-value {
     color: #666;
+}
+
+.info-value .list-inline {
+    display: inline-block;
 }
 
 .info-item .info-value a {

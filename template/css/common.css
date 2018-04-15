@@ -19,7 +19,7 @@ img{
 }
 
 /*清除浮动*/
-.clearfloat:after{
+/* .clearfloat:after{
     display: block;
     clear: both;
     content: "";
@@ -28,7 +28,7 @@ img{
 }
 .clearfloat{
     zoom: 1;
-}
+} */
 
 .col-xs-5ths, .col-sm-5ths, .col-md-5ths, .col-lg-5ths {
     position: relative;
@@ -63,3 +63,15 @@ img{
     -moz-box-sizing: border-box;
         box-sizing: border-box;
 } */
+
+/* bootstrap */
+.btn-primary {
+    border-color: #12A7B4;
+    background-color: #12A7B4;
+}
+
+.btn-primary:hover {
+    color: #12A7B4;
+    border-color: #b4ebfa!important;
+    background: #b4ebfa!important;
+}
