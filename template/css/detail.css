@@ -21,6 +21,20 @@
     position: relative;
 }
 
+.hall-of-fame {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hall-of-fame .recommend {
+    margin-top: 10px;
+    padding: 3px 14px;
+    background-color: #b4ebfa;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #14B9C8;
+}
+
 .anchor-header-icon .icon-box {
     width: 135px;
     height: 192px;
@@ -104,6 +118,29 @@
 
 .info-item .info-value a {
     display: inline-block;
+}
+
+.anchor-header-tab {
+    margin: 30px -30px 0;
+    border-top: 1px solid #eee;
+}
+
+.anchor-header-tab ul li a {
+    max-height: 49px;
+    padding: 12px 11px 8px;
+    font-size: 18px;
+    border-bottom: 4px solid transparent
+}
+
+.anchor-header-tab .nav-pills .active a {
+    background-color: #fff;
+    color: #14B9C8;
+    border-color: #14B9C8;
+}
+
+.anchor-header-tab .nav-pills .active a:hover {
+    background-color: #fff;
+    color: #14B9C8;
 }
 
 .anchor-main-body {
