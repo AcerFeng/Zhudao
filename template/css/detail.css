@@ -105,3 +105,45 @@
 .info-item .info-value a {
     display: inline-block;
 }
+
+.anchor-main-body {
+    background-color: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+
+.section-title {
+    margin-bottom: 15px;
+    padding: 20px 30px 0;
+    border-top: 1px solid #eee;
+}
+
+.section-title::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section-title h3 {
+    float: left;
+    padding-left: 8px;
+    line-height: 20px;
+    font-size: 18px;
+    border-left: 4px solid #14B9C8;
+}
+
+.anchor-body-bottom {
+    margin-bottom: 20px;
+}
+
+.anchor-body-description-paragraph {
+    margin: 0 30px;
+    position: relative;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    transition: all .3s ease-in-out 0s;
+}
+
+.anchor-body-images {
+    border-top: 1px solid #eee;
+}
