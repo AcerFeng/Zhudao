@@ -19,7 +19,7 @@ class Handler(BaseHandler):
     }
 
     crawl_config = {
-        'itag': 'v001',
+        'itag': 'v002',
         'headers': headers,
     }
 
@@ -75,5 +75,100 @@ class Handler(BaseHandler):
     def detail_page(self, response):
         return {
             "url": response.url,
-            "title": response.json['data']['info'],
+            "result": response.json['data']['info'],
+            "save": response.save
         }
+    
+    def on_result(self, result):
+        if not result:
+            return
+        self.save_data(**result)
+    
+    def save_data(self, **kw):
+
+        if not kw['result']:
+            return
+
+        item = kw['result']
+        save = kw['save']
+
+        try:
+            cursor = self.connect.cursor()
+            cursor.execute('select id from anchor where user_id=%s and platform_id=%s',
+                            (item['hostinfo']['rid'], self.platform_id))
+            result = cursor.fetchone()
+            if result:
+                # 更新操作(是否创建个主播分析表（新爬虫？）：包含平台、主播id、)
+                sql = '''update anchor set
+                    name=%s,
+                    room_id=%s,
+                    room_name=%s,
+                    cover=%s,
+                    avatar=%s,
+                    avatar_mid=%s,
+                    avatar_small=%s,
+                    fans=%s,
+                    category_id=%s,
+                    online=%s,
+                    pc_url=%s,
+                    `desc`=%s,
+                    update_time=%s,
+                    show_time=%s
+                    where id=%s'''
+                cursor.execute(sql, (item['hostinfo']['name'],
+                                        item['roominfo']['id'],
+                                        item['roominfo']['name'],
+                                        item['roominfo']['pictures']['img'],
+                                        item['hostinfo']['avatar'],
+                                        item['hostinfo']['avatar'],
+                                        item['hostinfo']['avatar'],
+                                        item['roominfo']['fans'],
+                                        save['category_id'],
+                                        item['roominfo']['person_num'],
+                                        'https://www.panda.tv/' + item['roominfo']['id'],
+                                        item['roominfo']['bulletin'],
+                                        datetime.now(),
+                                        datetime.fromtimestamp(float(item['roominfo']['start_time'])),
+                                        result[0],))
+            else:
+                # 插入操作
+                sql='''insert into anchor(
+                    user_id,
+                    name,
+                    room_id,
+                    room_name,
+                    cover,
+                    avatar,
+                    avatar_mid,
+                    avatar_small,
+                    fans,
+                    category_id,
+                    online,
+                    platform_id,
+                    pc_url,
+                    `desc`,
+                    show_time,
+                    created_time)
+                    values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
+                cursor.execute(sql, (item['hostinfo']['rid'],
+                                        item['hostinfo']['name'],
+                                        item['roominfo']['id'],
+                                        item['roominfo']['name'],
+                                        item['roominfo']['pictures']['img'],
+                                        item['hostinfo']['avatar'],
+                                        item['hostinfo']['avatar'],
+                                        item['hostinfo']['avatar'],
+                                        item['roominfo']['fans'],
+                                        save['category_id'],
+                                        item['roominfo']['person_num'],
+                                        self.platform_id,
+                                        'https://www.panda.tv/' + item['roominfo']['id'],
+                                        item['roominfo']['bulletin'],
+                                        datetime.fromtimestamp(float(item['roominfo']['start_time'])),
+                                        datetime.now(),
+                                    ))
+            self.connect.commit()
+
+        except Exception as e:
+            self.connect.rollback()
+            raise e
